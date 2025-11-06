@@ -23,16 +23,12 @@ I’m a first-year **Artificial Intelligence and Machine Learning** student at *
 ![Python](https://img.shields.io/badge/-Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
 ![C](https://img.shields.io/badge/-C-00599C?style=for-the-badge&logo=c&logoColor=white)
 ![SQL](https://img.shields.io/badge/-SQL-336791?style=for-the-badge&logo=postgresql&logoColor=white)
-![Git](https://img.shields.io/badge/-Git-F05032?style=for-the-badge&logo=git&logoColor=white)
 ![GitHub](https://img.shields.io/badge/-GitHub-181717?style=for-the-badge&logo=github&logoColor=white)
 ![VS Code](https://img.shields.io/badge/-VS%20Code-007ACC?style=for-the-badge&logo=visualstudiocode&logoColor=white)
 
 ### 🤖 AI & Development
 ![Artificial Intelligence](https://img.shields.io/badge/-Artificial%20Intelligence-FF6F00?style=for-the-badge&logo=openai&logoColor=white)
 ![Machine Learning](https://img.shields.io/badge/-Machine%20Learning-102230?style=for-the-badge&logo=tensorflow&logoColor=white)
-![Scikit Learn](https://img.shields.io/badge/-Scikit%20Learn-F7931E?style=for-the-badge&logo=scikitlearn&logoColor=white)
-![TensorFlow](https://img.shields.io/badge/-TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white)
-
 
 ## 🎓 Education  
 - **B.Tech – Artificial Intelligence & Machine Learning (2025–2029)**  
