@@ -1,10 +1,4 @@
-<p align="center">
-  <img src="https://capsule-render.vercel.app/render?type=waving&color=auto&height=200&section=header&text=Rithul%20Raveendran&fontSize=70" />
-</p>
-
-<p align="center">
-  <img src="https://komarev.com/ghpvc/?username=rithulraveendran&label=Profile%20Views&color=0e75b6&style=flat" alt="Profile Views" />
-</p>
+# Hi there, I'm Rithul Raveendran 👋
 
 <p align="center">
   <strong>🎓 1st-year AI & ML Student | 💻 Python Programmer | 🏫 Proud Sainik School Alumnus | 🌱 Lifelong Learner</strong>
@@ -45,7 +39,6 @@ I’m a first-year **Artificial Intelligence and Machine Learning** student at *
 *   **Sainik School Kazhakootam** (2018–2025)
 
 #### **Certifications**
-*   ✅ **Python for Data Science** – *NPTEL*
 *   ✅ **Python Program** – *Coursera*
 *   ✅ **DBMS Fundamentals** – *Scaler*
 *   ✅ **SQL Certification** – *SkillRack*
@@ -53,12 +46,8 @@ I’m a first-year **Artificial Intelligence and Machine Learning** student at *
 
 ---
 
-### 🏆 GitHub Trophies & Achievements
-<p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=rithulraveendran&theme=tokyonight&margin-w=15&column=4" alt="Trophies" />
-</p>
-
-<p align="center">
+### 🏆 GitHub Achievements
+<p align="left">
   <img src="https://github-profile-achievements-badge.vercel.app/api?username=rithulraveendran&theme=tokyonight&compact=1" alt="Achievements" />
 </p>
 
@@ -67,12 +56,15 @@ I’m a first-year **Artificial Intelligence and Machine Learning** student at *
 ### 📊 GitHub Stats
 <p align="center">
   <img src="https://github-readme-stats.vercel.app/api?username=rithulraveendran&show_icons=true&theme=tokyonight" alt="Stats" height="180px" />
-  <img src="https://github-readme-stats.vercel.app/api/wakatime?username=rithulraveendran&theme=tokyonight&layout=compact" alt="WakaTime" height="180px" />
-</p>
-
-<p align="center">
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=rithulraveendran&layout=compact&theme=tokyonight" alt="Top Langs" height="180px" />
 </p>
+
+<!-- 
+Note: WakaTime stats will only appear once you make your coding activity public in WakaTime settings.
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api/wakatime?username=rithulraveendran&theme=tokyonight&layout=compact" alt="WakaTime" height="180px" />
+</p>
+-->
 
 ---
 
