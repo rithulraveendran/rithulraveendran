@@ -46,7 +46,7 @@ I’m a first-year <strong>Artificial Intelligence and Machine Learning</strong>
 *   ✅ **Python Program** – *Coursera*
 *   ✅ **DBMS Fundamentals** – *Scaler*
 *   ✅ **SQL Certification** – *SkillRack*
-*   ✅ **ML & AI Fundamentals** – *AWS*
+*   ✅ **ML & AI Fundamentals** – *Amazon Web Services*
 
 ---
 
