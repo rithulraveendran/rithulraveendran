@@ -53,6 +53,13 @@ I’m a first-year **Artificial Intelligence and Machine Learning** student at *
 
 ---
 
+## 🏆 GitHub Achievements
+<p align="left">
+  <img src="https://github-profile-achievements-badge.vercel.app/api?username=rithulraveendran&theme=tokyonight&compact=1" alt="GitHub Achievements" />
+</p>
+
+---
+
 ## 📊 GitHub Stats  
 ![Rithul's GitHub Stats](https://github-readme-stats.vercel.app/api?username=rithulraveendran&show_icons=true&theme=tokyonight)  
 ![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=rithulraveendran&layout=compact&theme=tokyonight)  
