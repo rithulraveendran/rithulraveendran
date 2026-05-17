@@ -2,7 +2,7 @@
 
 <p align="center">
   <font size="6"><strong>🎓 1st-year AI & ML Student | 💻 Python Programmer</strong></font><br>
-  <font size="4">🏫 Proud Sainik School Alumnus | 🌱 Lifelong Learner</font>
+  <font size="4">🏫  Sainik School Alumnus | 🌱 Lifelong Learner</font>
 </p>
 
 ---
