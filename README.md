@@ -1,121 +1,93 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&amp;color=0:0368FE,100:00C6FF&amp;height=200&amp;section=header&amp;text=Rithul%20Raveendran&amp;fontSize=45&amp;fontColor=ffffff&amp;animation=fadeIn&amp;fontAlignY=35&amp;desc=AI%20%26%20ML%20Student%20%7C%20Builder%20%7C%20Hackathon%20Enthusiast&amp;descAlignY=55&amp;descSize=18" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:FFD6E8,50:E8D5FF,100:C6F7E2&height=200&section=header&text=Rithul%20Raveendran&fontSize=42&fontColor=5C4B6F&animation=fadeIn&fontAlignY=35" width="100%"/>
 
-<br>
+<a href="https://rithul.carrd.co/"><img src="https://img.shields.io/badge/Portfolio-FFD6E8?style=for-the-badge&logoColor=5C4B6F"/></a>
+<a href="https://www.linkedin.com/in/rithulraveendran/"><img src="https://img.shields.io/badge/LinkedIn-E8D5FF?style=for-the-badge&logo=linkedin&logoColor=5C4B6F"/></a>
+<a href="https://www.instagram.com/rit.xul_"><img src="https://img.shields.io/badge/Instagram-C6F7E2?style=for-the-badge&logo=instagram&logoColor=5C4B6F"/></a>
 
-![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&amp;weight=600&amp;size=22&amp;pause=1000&amp;color=0368FE&amp;center=true&amp;vCenter=true&amp;width=600&amp;lines=2nd-year+AI+%26+ML+Student;Sainik+School+Alumnus;Vibecoding+real-world+AI+projects;Building+for+SIH+2026;Always+shipping+something+new)
-
-<br>
-
-<img src="https://komarev.com/ghpvc/?username=rithulraveendran&amp;label=Profile%20Views&amp;color=0368FE&amp;style=flat" alt="profile views" />
-<img src="https://img.shields.io/github/followers/rithulraveendran?label=Followers&amp;style=flat&amp;color=0368FE" alt="followers" />
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=22&duration=3000&pause=800&color=B39DDB&center=true&vCenter=true&multiline=true&repeat=true&width=700&height=80&lines=AI+%26+ML+student%2C+B.Tech+2025-2029;Learning+by+building+small%2C+real+projects;Currently+into+computer+vision+%26+LLM+tooling" />
 
 </div>
 
-<br>
+---
 
-## 🧠 About Me
-
-I'm a 2nd-year **Artificial Intelligence and Machine Learning** student at **St. Joseph's College of Engineering**, Chennai — passionate about building real-world software and exploring how AI transforms technology.
-
-```python
-class Rithul:
-    def __init__(self):
-        self.role = "AI & ML Student"
-        self.location = "Chennai, India"
-        self.learning = ["Python", "C", "SQL", "Full-Stack"]
-        self.goals = ["Ship AI-driven projects", "Win hackathons"]
-
-    def say_hi(self):
-        print("Thanks for stopping by — let's build something!")
-```
-
-<br>
-
-## 🛠️ Tech Stack
-
-<p align="center">
-  <img src="https://img.shields.io/badge/-Python-3776AB?style=for-the-badge&amp;logo=python&amp;logoColor=white" />
-  <img src="https://img.shields.io/badge/-C-00599C?style=for-the-badge&amp;logo=c&amp;logoColor=white" />
-  <img src="https://img.shields.io/badge/-SQL-336791?style=for-the-badge&amp;logo=postgresql&amp;logoColor=white" />
-  <img src="https://img.shields.io/badge/-GitHub-181717?style=for-the-badge&amp;logo=github&amp;logoColor=white" />
-  <img src="https://img.shields.io/badge/-VS%20Code-007ACC?style=for-the-badge&amp;logo=visualstudiocode&amp;logoColor=white" />
-</p>
-<p align="center">
-  <img src="https://img.shields.io/badge/-Artificial%20Intelligence-FF6F00?style=for-the-badge&amp;logo=openai&amp;logoColor=white" />
-  <img src="https://img.shields.io/badge/-Machine%20Learning-102230?style=for-the-badge&amp;logo=tensorflow&amp;logoColor=white" />
-</p>
-
-<br>
-
-## 📊 GitHub Stats
+### 🛠️ Tech Stack
 
 <div align="center">
-<img src="https://github-readme-stats.vercel.app/api?username=rithulraveendran&amp;show_icons=true&amp;theme=tokyonight&amp;hide_border=true&amp;count_private=true&amp;title_color=0368FE&amp;icon_color=0368FE" alt="GitHub Stats" width="49%" />
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=rithulraveendran&amp;layout=compact&amp;theme=tokyonight&amp;hide_border=true&amp;title_color=0368FE" alt="Top Languages" width="35%" />
+<img src="https://skillicons.dev/icons?i=py,flask,js,fastapi,react,git,firebase,opencv&theme=light&perline=8" />
 </div>
 
 <div align="center">
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=rithulraveendran&amp;theme=tokyonight&amp;hide_border=true&amp;ring=0368FE&amp;fire=00C6FF" alt="GitHub Streak" width="60%" />
+
+![Groq](https://img.shields.io/badge/Groq-FFD6E8?style=for-the-badge&logoColor=5C4B6F)
+![Supabase](https://img.shields.io/badge/Supabase-E8D5FF?style=for-the-badge&logo=supabase&logoColor=5C4B6F)
+
 </div>
+
+---
+
+### ⏱️ WakaTime Stats
 
 <div align="center">
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=rithulraveendran&amp;theme=tokyo-night&amp;hide_border=true&amp;color=0368FE&amp;line=00C6FF&amp;point=ffffff" width="95%" alt="activity graph"/>
+<img src="https://github-readme-stats.vercel.app/api/wakatime?username=rithulraveendran&theme=default&hide_border=true&bg_color=FFF8F3&title_color=B39DDB&icon_color=FFADC6&text_color=5C4B6F&layout=compact" width="60%"/>
 </div>
 
-<br>
+> This card only populates once your WakaTime activity is public. Set that in your [WakaTime profile settings](https://wakatime.com/settings/profile) (make "Coding Activity" public), then it fills in automatically — no extra Action needed.
 
-## ⌛ WakaTime Stats
+---
 
-<div align="center">
-<img src="https://github-readme-stats.vercel.app/api/wakatime?username=rithulraveendran&amp;theme=tokyonight&amp;hide_border=true&amp;title_color=0368FE&amp;layout=compact" alt="WakaTime Stats" width="60%" />
-</div>
-
-> Powered by the [WakaTime](https://wakatime.com) plugin — make sure your GitHub username is linked in your WakaTime profile settings for this to populate.
-
-<br>
-
-## 🏆 GitHub Trophies
-
-<div align="center">
-<img src="https://github-profile-trophy.vercel.app/?username=rithulraveendran&amp;theme=tokyonight&amp;no-frame=true&amp;column=7&amp;margin-w=8&amp;margin-h=8" alt="trophies" />
-</div>
-
-<br>
-
-## 🐍 Contribution Snake
-
-<div align="center">
-<img src="https://raw.githubusercontent.com/rithulraveendran/rithulraveendran/output/github-contribution-grid-snake-dark.svg" alt="snake animation" width="95%" />
-</div>
-
-> This animates automatically once the [snake workflow](https://github.com/Platane/snk) is added to your profile repo — ask if you'd like the GitHub Action set up.
-
-<br>
-
-## 🌐 Connect with Me
+### 📊 GitHub Stats
 
 <div align="center">
 
-<a href="mailto:flightsofwhisper@gmail.com">
-  <img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&amp;logo=gmail&amp;logoColor=white" />
+<img src="https://github-readme-stats.vercel.app/api?username=rithulraveendran&show_icons=true&theme=default&hide_border=true&bg_color=FFF8F3&title_color=B39DDB&icon_color=FFADC6&text_color=5C4B6F&count_private=true" width="48%"/>
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=rithulraveendran&theme=default&hide_border=true&background=FFF8F3&ring=FFADC6&fire=B39DDB&currStreakLabel=5C4B6F&stroke=5C4B6F" width="48%"/>
+
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=rithulraveendran&layout=compact&theme=default&hide_border=true&bg_color=FFF8F3&title_color=B39DDB&text_color=5C4B6F" width="48%"/>
+
+<img src="https://github-profile-trophy.vercel.app/?username=rithulraveendran&theme=juicyfresh&no-frame=true&column=4&margin-w=8&margin-h=8&title=Stars,Commits,PullRequest,Repositories" width="90%"/>
+
+</div>
+
+---
+
+### 🌱 Featured Projects
+
+<div align="center">
+
+<a href="https://github.com/rithulraveendran/AirDock">
+<img src="https://github-readme-stats.vercel.app/api/pin/?username=rithulraveendran&repo=AirDock&theme=default&hide_border=true&bg_color=FFF8F3&title_color=B39DDB&icon_color=FFADC6&text_color=5C4B6F"/>
 </a>
-<a href="https://www.linkedin.com/in/rithulraveendran/">
-  <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&amp;logo=linkedin&amp;logoColor=white" />
+<a href="https://github.com/rithulraveendran/F.R.O.S.T.">
+<img src="https://github-readme-stats.vercel.app/api/pin/?username=rithulraveendran&repo=F.R.O.S.T.&theme=default&hide_border=true&bg_color=FFF8F3&title_color=B39DDB&icon_color=FFADC6&text_color=5C4B6F"/>
 </a>
-<a href="https://www.instagram.com/rit.xul_">
-  <img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&amp;logo=instagram&amp;logoColor=white" />
+<a href="https://github.com/rithulraveendran/carbonlens-ai">
+<img src="https://github-readme-stats.vercel.app/api/pin/?username=rithulraveendran&repo=carbonlens-ai&theme=default&hide_border=true&bg_color=FFF8F3&title_color=B39DDB&icon_color=FFADC6&text_color=5C4B6F"/>
+</a>
+<a href="https://github.com/rithulraveendran/manas">
+<img src="https://github-readme-stats.vercel.app/api/pin/?username=rithulraveendran&repo=manas&theme=default&hide_border=true&bg_color=FFF8F3&title_color=B39DDB&icon_color=FFADC6&text_color=5C4B6F"/>
+</a>
+<a href="https://github.com/rithulraveendran/manas-bot">
+<img src="https://github-readme-stats.vercel.app/api/pin/?username=rithulraveendran&repo=manas-bot&theme=default&hide_border=true&bg_color=FFF8F3&title_color=B39DDB&icon_color=FFADC6&text_color=5C4B6F"/>
 </a>
 
 </div>
 
-<br>
+| Project | What it does |
+|---|---|
+| 🖐️ **[AirDock](https://github.com/rithulraveendran/AirDock)** | Privacy-first, zero-latency desktop control powered by local computer vision |
+| ❄️ **[F.R.O.S.T.](https://github.com/rithulraveendran/F.R.O.S.T.)** | Manifest V3 "hard-gate" productivity firewall — unremovable until your goal date |
+| 🌱 **[CarbonLens AI](https://github.com/rithulraveendran/carbonlens-ai)** | Flask sustainability SaaS with NLP-driven carbon evidence extraction from PDFs/Excel |
+| 🧠 **[Manas](https://github.com/rithulraveendran/manas)** | Web-based AI assistant for student mental wellness, mood tracking & safe conversation |
+| 🤖 **[Manas Bot](https://github.com/rithulraveendran/manas-bot)** | Telegram bot on Groq LLM with modular command structure & error handling |
+
+---
 
 <div align="center">
 
-![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&amp;size=16&amp;pause=1500&amp;color=858585&amp;center=true&amp;vCenter=true&amp;width=400&amp;lines=Code.+Learn.+Build.+Repeat.)
+![Profile Views](https://komarev.com/ghpvc/?username=rithulraveendran&color=b39ddb&style=for-the-badge&label=VISITORS)
 
-<img src="https://capsule-render.vercel.app/api?type=waving&amp;color=0:00C6FF,100:0368FE&amp;height=100&amp;section=footer" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:C6F7E2,50:E8D5FF,100:FFD6E8&height=100&section=footer"/>
 
 </div>
