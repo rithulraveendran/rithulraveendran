@@ -85,3 +85,4 @@ I am a software engineer and AI enthusiast focused on building clean, impactful 
 
 <!-- Animated Wave Footer -->
 <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0891b2&height=100&section=footer"/>
+
