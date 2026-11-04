@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 260" width="100%" height="260">
+  <defs>
+    <!-- Background Gradient -->
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#020408" />
+      <stop offset="60%" stop-color="#0a0e17" />
+      <stop offset="100%" stop-color="#05131f" />
+    </linearGradient>
+
+    <!-- Subtle Radial Atmosphere -->
+    <radialGradient id="radialGlow" cx="90%" cy="20%" r="60%">
+      <stop offset="0%" stop-color="#38bdf8" stop-opacity="0.18" />
+      <stop offset="100%" stop-color="#020408" stop-opacity="0" />
+    </radialGradient>
+
+    <!-- Subtle Technical Grid Pattern -->
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#ffffff" stroke-width="1" stroke-opacity="0.03" />
+      <circle cx="0" cy="0" r="1" fill="#38bdf8" fill-opacity="0.2" />
+    </pattern>
+
+    <style>
+      .title {
+        font-family: -apple-system, BlinkMacSystemFont, "SF Pro Display", "Segoe UI", Roboto, sans-serif;
+        font-size: 44px;
+        font-weight: 800;
+        letter-spacing: 3px;
+        fill: #ffffff;
+      }
+      .tagline {
+        font-family: -apple-system, BlinkMacSystemFont, "SF Pro Text", "Segoe UI", Roboto, sans-serif;
+        font-size: 15px;
+        font-weight: 600;
+        letter-spacing: 2px;
+        fill: #38bdf8;
+      }
+      .institution {
+        font-family: -apple-system, BlinkMacSystemFont, "SF Pro Text", "Segoe UI", Roboto, sans-serif;
+        font-size: 14px;
+        font-weight: 400;
+        letter-spacing: 0.5px;
+        fill: #86868b;
+      }
+      .spec {
+        font-family: 'Fira Code', ui-monospace, SFMono-Regular, monospace;
+        font-size: 12px;
+        font-weight: 500;
+        letter-spacing: 1.2px;
+        fill: #64748b;
+      }
+    </style>
+  </defs>
+
+  <!-- Canvas Surface with Hairline Border -->
+  <rect x="1" y="1" width="1198" height="258" rx="12" fill="url(#bg)" stroke="#30363d" stroke-width="1" />
+  <rect x="1" y="1" width="1198" height="258" rx="12" fill="url(#radialGlow)" />
+  <rect x="1" y="1" width="1198" height="258" rx="12" fill="url(#grid)" />
+
+  <!-- Content Block -->
+  <g transform="translate(64, 82)">
+    <text x="0" y="0" class="tagline">ENGINEERING PORTFOLIO &amp; RESEARCH ARCHIVE</text>
+    <text x="0" y="44" class="title">RITHUL RAVEENDRAN</text>
+    <text x="0" y="80" class="institution">B.Tech in Artificial Intelligence &amp; Machine Learning · St. Joseph's College of Engineering, Chennai</text>
+    <text x="0" y="112" class="spec">MULTIMODAL AI  ·  EDGE VISION (RV1106)  ·  RAG AGENTS  ·  700+ PROBLEMS SOLVED</text>
+  </g>
+
+  <!-- Technical Corner Accent -->
+  <g transform="translate(1120, 48)" opacity="0.6">
+    <path d="M 0 0 L 28 0 L 28 28" fill="none" stroke="#38bdf8" stroke-width="1.5" />
+    <circle cx="28" cy="0" r="2.5" fill="#38bdf8" />
+  </g>
+</svg>
