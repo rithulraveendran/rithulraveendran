@@ -102,19 +102,6 @@ I engineer production-grade machine learning pipelines, edge computer vision sys
   </a>
 </div>
 
-<br />
-
-```text
-Python       44 hrs 44 mins  ████████████████████░░░░░░░░░░░░░░░░░░░░   32.79 %
-HTML         27 hrs 48 mins  █████████████░░░░░░░░░░░░░░░░░░░░░░░░░░   20.38 %
-Markdown     19 hrs 20 mins  █████████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░   14.17 %
-JavaScript   18 hrs 31 mins  █████████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░   13.58 %
-TypeScript    4 hrs 40 mins  ██░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░    3.43 %
-Bash          2 hrs 58 mins  █░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░    2.17 %
-SQL           1 hr 10 mins   █░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░    0.87 %
-C                   31 mins  ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░    0.38 %
-```
-
 ---
 
 <div align="center">
