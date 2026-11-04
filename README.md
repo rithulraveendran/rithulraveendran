@@ -164,7 +164,7 @@ I am a second-year B.Tech student in <strong>Artificial Intelligence and Machine
 
 <br />
 
-<!-- Waving Footer -->
+<!-- Footer Banner -->
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:000000,50:083344,100:0891b2&height=65&section=footer" width="100%" alt="Footer Wave" />
+  <img src="assets/footer.svg" width="100%" alt="Footer" />
 </p>
