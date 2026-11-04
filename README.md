@@ -104,15 +104,47 @@ I engineer production-grade machine learning pipelines, edge computer vision sys
 
 ---
 
-### ⏱️ Time Tracking & Development Telemetry
+### ⏱️ WakaTime Development Telemetry
 
 <div align="center">
-  <p>Tracked development hours directly synchronized from IDE activity:</p>
   <a href="https://wakatime.com/@59e2b09e-3c6d-4097-ba67-eb39be54a650" target="_blank">
     <img src="https://wakatime.com/badge/user/59e2b09e-3c6d-4097-ba67-eb39be54a650.svg?style=for-the-badge" alt="WakaTime Verified Time Tracked" />
   </a>
   <br /><br />
-  <sub>⚡ Live metrics and daily commit telemetry are updated hourly on <a href="https://rithulraveendran.github.io/">rithulraveendran.github.io</a></sub>
+</div>
+
+```text
+🕒 Total Tracked Time: 136 hrs 26 mins       ⚡ Daily Average: 1 hr 37 mins
+
+Languages:
+Python             44 hrs 44 mins   ██████████░░░░░░░░░░░░░░░░   32.79 %
+HTML               27 hrs 48 mins   ██████░░░░░░░░░░░░░░░░░░░░   20.38 %
+Markdown           19 hrs 20 mins   ████░░░░░░░░░░░░░░░░░░░░░░   14.17 %
+JavaScript         18 hrs 31 mins   ████░░░░░░░░░░░░░░░░░░░░░░   13.58 %
+TypeScript          4 hrs 40 mins   █░░░░░░░░░░░░░░░░░░░░░░░░░    3.43 %
+Bash                2 hrs 58 mins   █░░░░░░░░░░░░░░░░░░░░░░░░░    2.17 %
+SQL / C             1 hr 41 mins    ░░░░░░░░░░░░░░░░░░░░░░░░░░    1.25 %
+
+Editors & Development Environments:
+Antigravity IDE    67 hrs 21 mins   ███████████████░░░░░░░░░░░   49.36 %
+VS Code            46 hrs 17 mins   ██████████░░░░░░░░░░░░░░░░   33.93 %
+Antigravity Desktop 19 hrs 48 mins  ████░░░░░░░░░░░░░░░░░░░░░░   14.52 %
+Antigravity CLI     2 hrs 51 mins   █░░░░░░░░░░░░░░░░░░░░░░░░░    2.10 %
+
+AI Model Distribution:
+Gemini                              ██████████████████████████░   87.77 %
+GPT                                 ██░░░░░░░░░░░░░░░░░░░░░░░░░    6.24 %
+Claude Sonnet                       █░░░░░░░░░░░░░░░░░░░░░░░░░░    3.35 %
+GitHub Copilot                      █░░░░░░░░░░░░░░░░░░░░░░░░░░    2.16 %
+
+Category Focus:
+AI-Augmented Development            127 hrs 23 mins              93.36 %
+Core Coding & Systems Architecture    6 hrs 24 mins               4.70 %
+Technical Documentation & Specs       2 hrs 26 mins               1.79 %
+```
+
+<div align="center">
+  <sub>Live telemetry synchronized from <a href="https://wakatime.com/@59e2b09e-3c6d-4097-ba67-eb39be54a650" target="_blank">WakaTime</a> · Daily commit metrics updated hourly on <a href="https://rithulraveendran.github.io/">rithulraveendran.github.io</a></sub>
 </div>
 
 ---
