@@ -1,38 +1,21 @@
-<!-- Animated Dynamic Header Banner -->
 <div align="center">
-  <img src="assets/header.svg" width="100%" alt="Rithul Raveendran — AI & ML Engineer" />
+
+  <h1>Rithul Raveendran</h1>
+  <p><strong>B.Tech in Artificial Intelligence &amp; Machine Learning</strong></p>
+  <p>St. Joseph's College of Engineering, Chennai · Alumnus of Sainik School Kazhakootam</p>
+
+  <p>
+    <a href="https://rithulraveendran.github.io/" target="_blank">
+      <img src="https://img.shields.io/badge/%E2%97%86_LIVE_PORTFOLIO-rithulraveendran.github.io-000000?style=for-the-badge&logo=safari&logoColor=white&labelColor=161b22" alt="Live Portfolio" />
+    </a>
+  </p>
+
 </div>
 
-<br />
-
-<!-- Hero Two-Column Layout: Bio, Typing Terminal & Developer Animation -->
-<table>
-  <tr>
-    <td valign="middle" width="63%">
-      <h2>Hey there, I'm Rithul! <img src="assets/wave.gif" width="30" alt="Waving hand" /></h2>
-      <p>
-        I'm a second-year B.Tech student in <strong>Artificial Intelligence &amp; Machine Learning</strong> at <strong>St. Joseph's College of Engineering, Chennai</strong>, and an alumnus of <strong>Sainik School Kazhakootam</strong>.
-      </p>
-      <!-- Real-time Animated Typing Terminal -->
-      <p>
-        <a href="https://rithulraveendran.github.io/" target="_blank">
-          <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=16&duration=3000&pause=1000&color=38BDF8&width=480&height=44&lines=Multimodal+AI+%E2%80%A2+Computer+Vision+%E2%80%A2+RAG;700%2B+Problems+Solved+Across+Platforms;Winner+%E2%80%94+Makeathon+2.0+%26+Makeathon+3.0;Building+Clean%2C+Quiet+%26+Resilient+Systems" alt="Typing Terminal" />
-        </a>
-      </p>
-      <p>
-        <a href="https://rithulraveendran.github.io/" target="_blank">
-          <img src="https://img.shields.io/badge/%E2%97%86_EXPLORE_LIVE_PORTFOLIO-rithulraveendran.github.io-000000?style=for-the-badge&logo=safari&logoColor=white&labelColor=161b22" alt="Live Portfolio" />
-        </a>
-        <img src="https://komarev.com/ghpvc/?username=rithulraveendran&color=0891b2&style=for-the-badge&label=VIEWS" alt="Profile Views" />
-      </p>
-    </td>
-    <td align="center" valign="middle" width="37%">
-      <a href="https://github.com/rithulraveendran">
-        <img src="assets/developer.gif" width="280" alt="Software Engineering Workspace" style="border-radius: 12px;" />
-      </a>
-    </td>
-  </tr>
-</table>
+<!-- Animated Typing Terminal -->
+<div align="center">
+  <img alt="Typing Terminal" src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=18&duration=3000&pause=1000&color=38BDF8&center=true&vCenter=true&width=700&height=46&lines=Multimodal+AI+%E2%80%A2+Computer+Vision+%E2%80%A2+RAG;700%2B+Problems+Solved+Across+Platforms;Winner+%E2%80%94+Makeathon+2.0+%26+Makeathon+3.0;Building+Clean%2C+Quiet+%26+Resilient+Systems" />
+</div>
 
 <p align="center">
   <a href="https://rithulraveendran.github.io/" target="_blank">
@@ -50,8 +33,8 @@
   <a href="https://www.codechef.com/users/rithul_123" target="_blank">
     <img src="https://img.shields.io/badge/CodeChef-rithul__123-5B4638?style=flat-square&logo=codechef&logoColor=white" alt="CodeChef" />
   </a>
-  <a href="mailto:iamrithulr@gmail.com">
-    <img src="https://img.shields.io/badge/Email-iamrithulr%40gmail.com-EA4335?style=flat-square&logo=gmail&logoColor=white" alt="Email" />
+  <a href="mailto:flightsofwhisper@gmail.com">
+    <img src="https://img.shields.io/badge/Email-flightsofwhisper%40gmail.com-EA4335?style=flat-square&logo=gmail&logoColor=white" alt="Email" />
   </a>
   <a href="https://wakatime.com/@59e2b09e-3c6d-4097-ba67-eb39be54a650" target="_blank">
     <img src="https://wakatime.com/badge/user/59e2b09e-3c6d-4097-ba67-eb39be54a650.svg?style=flat-square" alt="WakaTime" />
@@ -60,25 +43,15 @@
 
 ---
 
-### ⚡ Technical Focus & Engineering Philosophy
+### ⚡ About
 
-I bridge the gap between applied machine learning models, edge hardware constraints, and production software architecture:
+I engineer production-grade machine learning pipelines, edge computer vision systems, and resilient backend architectures.
 
 - 🎙️ **Multimodal AI & Speech:** Audio characteristic extraction (`librosa`) combined with agentic decision graphs (`LangGraph`) and pgvector retrieval.
 - 👁️ **Computer Vision & Edge Inference:** On-device YOLO models deployed on embedded hardware (`Luckfox Pico Pro Max RV1106`) with optimized C/C++ runtimes.
 - ⚡ **Competitive Problem Solving:** **700+ problems solved** across LeetCode, SkillRack, CodeChef, and Codeforces.
 - 🏆 **Hackathons:** 1st Place Winner at **Makeathon 2.0** and **Makeathon 3.0**.
-- 🌐 **Interactive Portfolio:** Explore real-time telemetry, architecture schematics, and interactive visualizers at [rithulraveendran.github.io](https://rithulraveendran.github.io/).
-
----
-
-### 🚀 Featured Systems & Architectures
-
-| System | Focus & Technical Architecture | Tech Stack | Status |
-| :--- | :--- | :--- | :---: |
-| **Aavaaz** | Multimodal crisis monitoring platform combining vocal characteristic analysis with conversational sentiment assessment and RAG contextual escalation. | `Python` `FastAPI` `LangGraph` `PostgreSQL` `pgvector` `librosa` | Complete |
-| **CarbonLens AI** | Enterprise Scope 3 emissions engine extracting activity data from utility PDFs/Excel with Llama 3.3 and automated BRSR reporting. | `Python` `Flask` `Groq` `Llama 3.3` `Firebase` | Complete |
-| **Mrithasanjeevani** | Healthcare coordination platform with role-based routing, real-time WebSocket emergency SOS dispatch, and multilingual voice logging. | `Python` `Flask` `SQLite` `WebSockets` `SpeechRecognition` | Complete |
+- 🌐 **Live Interactive Portfolio:** [rithulraveendran.github.io](https://rithulraveendran.github.io/)
 
 ---
 
@@ -121,51 +94,29 @@ I bridge the gap between applied machine learning models, edge hardware constrai
 
 ---
 
-### ⏱️ WakaTime Development Telemetry
+### ⏱️ Languages & Development Telemetry
 
 <div align="center">
   <a href="https://wakatime.com/@59e2b09e-3c6d-4097-ba67-eb39be54a650" target="_blank">
-    <img src="https://wakatime.com/badge/user/59e2b09e-3c6d-4097-ba67-eb39be54a650.svg?style=for-the-badge" alt="WakaTime Verified Time Tracked" />
+    <img src="assets/wakatime.svg" alt="Languages Telemetry" />
   </a>
-  <br /><br />
 </div>
+
+<br />
 
 ```text
-🕒 Total Tracked Time: 136 hrs 26 mins       ⚡ Daily Average: 1 hr 37 mins
-
-Languages:
-Python             44 hrs 44 mins   ██████████░░░░░░░░░░░░░░░░   32.79 %
-HTML               27 hrs 48 mins   ██████░░░░░░░░░░░░░░░░░░░░   20.38 %
-Markdown           19 hrs 20 mins   ████░░░░░░░░░░░░░░░░░░░░░░   14.17 %
-JavaScript         18 hrs 31 mins   ████░░░░░░░░░░░░░░░░░░░░░░   13.58 %
-TypeScript          4 hrs 40 mins   █░░░░░░░░░░░░░░░░░░░░░░░░░    3.43 %
-Bash                2 hrs 58 mins   █░░░░░░░░░░░░░░░░░░░░░░░░░    2.17 %
-SQL / C             1 hr 41 mins    ░░░░░░░░░░░░░░░░░░░░░░░░░░    1.25 %
-
-Editors & Development Environments:
-Antigravity IDE    67 hrs 21 mins   ███████████████░░░░░░░░░░░   49.36 %
-VS Code            46 hrs 17 mins   ██████████░░░░░░░░░░░░░░░░   33.93 %
-Antigravity Desktop 19 hrs 48 mins  ████░░░░░░░░░░░░░░░░░░░░░░   14.52 %
-Antigravity CLI     2 hrs 51 mins   █░░░░░░░░░░░░░░░░░░░░░░░░░    2.10 %
-
-AI Model Distribution:
-Gemini                              ██████████████████████████░   87.77 %
-GPT                                 ██░░░░░░░░░░░░░░░░░░░░░░░░░    6.24 %
-Claude Sonnet                       █░░░░░░░░░░░░░░░░░░░░░░░░░░    3.35 %
-GitHub Copilot                      █░░░░░░░░░░░░░░░░░░░░░░░░░░    2.16 %
-
-Category Focus:
-AI-Augmented Development            127 hrs 23 mins              93.36 %
-Core Coding & Systems Architecture    6 hrs 24 mins               4.70 %
-Technical Documentation & Specs       2 hrs 26 mins               1.79 %
+Python       44 hrs 44 mins  ████████████████████░░░░░░░░░░░░░░░░░░░░   32.79 %
+HTML         27 hrs 48 mins  █████████████░░░░░░░░░░░░░░░░░░░░░░░░░░   20.38 %
+Markdown     19 hrs 20 mins  █████████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░   14.17 %
+JavaScript   18 hrs 31 mins  █████████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░   13.58 %
+TypeScript    4 hrs 40 mins  ██░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░    3.43 %
+Bash          2 hrs 58 mins  █░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░    2.17 %
+SQL           1 hr 10 mins   █░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░    0.87 %
+C                   31 mins  ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░    0.38 %
 ```
-
-<div align="center">
-  <sub>Live telemetry synchronized from <a href="https://wakatime.com/@59e2b09e-3c6d-4097-ba67-eb39be54a650" target="_blank">WakaTime</a> · Daily commit metrics updated hourly on <a href="https://rithulraveendran.github.io/">rithulraveendran.github.io</a></sub>
-</div>
 
 ---
 
 <div align="center">
-  <sub>Designed with quiet restraint · Live Portfolio: <a href="https://rithulraveendran.github.io/">rithulraveendran.github.io</a> · Contact: <a href="mailto:iamrithulr@gmail.com">iamrithulr@gmail.com</a></sub>
+  <sub>Contact: <a href="mailto:flightsofwhisper@gmail.com">flightsofwhisper@gmail.com</a></sub>
 </div>

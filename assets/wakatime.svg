@@ -1,0 +1,119 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="680" height="280" viewBox="0 0 680 280">
+  <defs>
+    <style>
+      .title { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif; font-size: 14px; font-weight: 600; fill: #58a6ff; }
+      .meta { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif; font-size: 12px; fill: #848d97; }
+      .lang-name { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif; font-size: 13px; font-weight: 500; fill: #e6edf3; }
+      .lang-time { font-family: "Fira Code", ui-monospace, SFMono-Regular, monospace; font-size: 12px; fill: #848d97; }
+      .lang-pct { font-family: "Fira Code", ui-monospace, SFMono-Regular, monospace; font-size: 12px; font-weight: 600; fill: #c9d1d9; }
+    </style>
+  </defs>
+
+  <!-- Container -->
+  <rect width="678" height="278" x="1" y="1" rx="8" fill="#0d1117" stroke="#30363d" stroke-width="1" />
+
+  <!-- Header -->
+  <g transform="translate(28, 28)">
+    <text class="title">Languages (WakaTime Telemetry)</text>
+    <text x="622" y="0" text-anchor="end" class="meta">136 hrs 26 mins total · Daily avg: 1 hr 37 mins</text>
+  </g>
+
+  <!-- Continuous Multi-segment Language Bar (GitHub Style) -->
+  <g transform="translate(28, 42)">
+    <clipPath id="bar-clip">
+      <rect x="0" y="0" width="624" height="8" rx="4" />
+    </clipPath>
+    <g clip-path="url(#bar-clip)">
+      <rect x="0" y="0" width="204.6" height="8" fill="#3572A5" />     <!-- Python 32.79% -->
+      <rect x="204.6" y="0" width="127.2" height="8" fill="#e34c26" /> <!-- HTML 20.38% -->
+      <rect x="331.8" y="0" width="88.4" height="8" fill="#58a6ff" />  <!-- Markdown 14.17% -->
+      <rect x="420.2" y="0" width="84.7" height="8" fill="#f1e05a" />  <!-- JavaScript 13.58% -->
+      <rect x="504.9" y="0" width="21.4" height="8" fill="#3178c6" />  <!-- TypeScript 3.43% -->
+      <rect x="526.3" y="0" width="13.5" height="8" fill="#89e051" />  <!-- Bash 2.17% -->
+      <rect x="539.8" y="0" width="5.4" height="8" fill="#e38c00" />   <!-- SQL 0.87% -->
+      <rect x="545.2" y="0" width="2.4" height="8" fill="#555555" />   <!-- C 0.38% -->
+      <rect x="547.6" y="0" width="76.4" height="8" fill="#21262d" />  <!-- Other / Tools -->
+    </g>
+  </g>
+
+  <!-- Language List with Individual Progress Bars -->
+  <!-- Python -->
+  <g transform="translate(28, 76)">
+    <circle cx="5" cy="5" r="4" fill="#3572A5" />
+    <text x="18" y="9" class="lang-name">Python</text>
+    <text x="120" y="9" class="lang-time">44 hrs 44 mins</text>
+    <rect x="240" y="1" width="310" height="8" rx="4" fill="#21262d" />
+    <rect x="240" y="1" width="101.6" height="8" rx="4" fill="#3572A5" />
+    <text x="562" y="9" class="lang-pct">32.79 %</text>
+  </g>
+
+  <!-- HTML -->
+  <g transform="translate(28, 100)">
+    <circle cx="5" cy="5" r="4" fill="#e34c26" />
+    <text x="18" y="9" class="lang-name">HTML</text>
+    <text x="120" y="9" class="lang-time">27 hrs 48 mins</text>
+    <rect x="240" y="1" width="310" height="8" rx="4" fill="#21262d" />
+    <rect x="240" y="1" width="63.2" height="8" rx="4" fill="#e34c26" />
+    <text x="562" y="9" class="lang-pct">20.38 %</text>
+  </g>
+
+  <!-- Markdown -->
+  <g transform="translate(28, 124)">
+    <circle cx="5" cy="5" r="4" fill="#58a6ff" />
+    <text x="18" y="9" class="lang-name">Markdown</text>
+    <text x="120" y="9" class="lang-time">19 hrs 20 mins</text>
+    <rect x="240" y="1" width="310" height="8" rx="4" fill="#21262d" />
+    <rect x="240" y="1" width="43.9" height="8" rx="4" fill="#58a6ff" />
+    <text x="562" y="9" class="lang-pct">14.17 %</text>
+  </g>
+
+  <!-- JavaScript -->
+  <g transform="translate(28, 148)">
+    <circle cx="5" cy="5" r="4" fill="#f1e05a" />
+    <text x="18" y="9" class="lang-name">JavaScript</text>
+    <text x="120" y="9" class="lang-time">18 hrs 31 mins</text>
+    <rect x="240" y="1" width="310" height="8" rx="4" fill="#21262d" />
+    <rect x="240" y="1" width="42.1" height="8" rx="4" fill="#f1e05a" />
+    <text x="562" y="9" class="lang-pct">13.58 %</text>
+  </g>
+
+  <!-- TypeScript -->
+  <g transform="translate(28, 172)">
+    <circle cx="5" cy="5" r="4" fill="#3178c6" />
+    <text x="18" y="9" class="lang-name">TypeScript</text>
+    <text x="120" y="9" class="lang-time">4 hrs 40 mins</text>
+    <rect x="240" y="1" width="310" height="8" rx="4" fill="#21262d" />
+    <rect x="240" y="1" width="10.6" height="8" rx="4" fill="#3178c6" />
+    <text x="562" y="9" class="lang-pct">3.43 %</text>
+  </g>
+
+  <!-- Bash -->
+  <g transform="translate(28, 196)">
+    <circle cx="5" cy="5" r="4" fill="#89e051" />
+    <text x="18" y="9" class="lang-name">Bash</text>
+    <text x="120" y="9" class="lang-time">2 hrs 58 mins</text>
+    <rect x="240" y="1" width="310" height="8" rx="4" fill="#21262d" />
+    <rect x="240" y="1" width="6.7" height="8" rx="4" fill="#89e051" />
+    <text x="562" y="9" class="lang-pct">2.17 %</text>
+  </g>
+
+  <!-- SQL -->
+  <g transform="translate(28, 220)">
+    <circle cx="5" cy="5" r="4" fill="#e38c00" />
+    <text x="18" y="9" class="lang-name">SQL</text>
+    <text x="120" y="9" class="lang-time">1 hr 10 mins</text>
+    <rect x="240" y="1" width="310" height="8" rx="4" fill="#21262d" />
+    <rect x="240" y="1" width="2.7" height="8" rx="4" fill="#e38c00" />
+    <text x="562" y="9" class="lang-pct">0.87 %</text>
+  </g>
+
+  <!-- C -->
+  <g transform="translate(28, 244)">
+    <circle cx="5" cy="5" r="4" fill="#555555" />
+    <text x="18" y="9" class="lang-name">C</text>
+    <text x="120" y="9" class="lang-time">31 mins</text>
+    <rect x="240" y="1" width="310" height="8" rx="4" fill="#21262d" />
+    <rect x="240" y="1" width="1.2" height="8" rx="4" fill="#555555" />
+    <text x="562" y="9" class="lang-pct">0.38 %</text>
+  </g>
+</svg>
