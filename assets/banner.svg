@@ -1,72 +1,107 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 260" width="100%" height="260">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 280" width="100%" height="280">
   <defs>
     <!-- Background Gradient -->
-    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#020408" />
-      <stop offset="60%" stop-color="#0a0e17" />
-      <stop offset="100%" stop-color="#05131f" />
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#05070c" />
+      <stop offset="100%" stop-color="#090d16" />
     </linearGradient>
 
-    <!-- Subtle Radial Atmosphere -->
-    <radialGradient id="radialGlow" cx="90%" cy="20%" r="60%">
-      <stop offset="0%" stop-color="#38bdf8" stop-opacity="0.18" />
-      <stop offset="100%" stop-color="#020408" stop-opacity="0" />
+    <!-- Center Dome Arch Gradient -->
+    <radialGradient id="archGrad" cx="50%" cy="0%" r="65%">
+      <stop offset="0%" stop-color="#0284c7" stop-opacity="0.85" />
+      <stop offset="45%" stop-color="#0369a1" stop-opacity="0.45" />
+      <stop offset="75%" stop-color="#082f49" stop-opacity="0.15" />
+      <stop offset="100%" stop-color="#05070c" stop-opacity="0" />
     </radialGradient>
 
-    <!-- Subtle Technical Grid Pattern -->
-    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
-      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#ffffff" stroke-width="1" stroke-opacity="0.03" />
-      <circle cx="0" cy="0" r="1" fill="#38bdf8" fill-opacity="0.2" />
-    </pattern>
+    <!-- Subtle Radial Accent -->
+    <radialGradient id="glow" cx="50%" cy="40%" r="40%">
+      <stop offset="0%" stop-color="#38bdf8" stop-opacity="0.25" />
+      <stop offset="100%" stop-color="#05070c" stop-opacity="0" />
+    </radialGradient>
 
     <style>
-      .title {
+      .hero-title {
         font-family: -apple-system, BlinkMacSystemFont, "SF Pro Display", "Segoe UI", Roboto, sans-serif;
-        font-size: 44px;
-        font-weight: 800;
-        letter-spacing: 3px;
+        font-size: 46px;
+        font-weight: 900;
+        letter-spacing: 5px;
         fill: #ffffff;
       }
-      .tagline {
+      .hero-sub {
         font-family: -apple-system, BlinkMacSystemFont, "SF Pro Text", "Segoe UI", Roboto, sans-serif;
-        font-size: 15px;
+        font-size: 13px;
         font-weight: 600;
-        letter-spacing: 2px;
-        fill: #38bdf8;
+        letter-spacing: 3.5px;
+        fill: #e0f2fe;
       }
-      .institution {
+      .meta-link {
         font-family: -apple-system, BlinkMacSystemFont, "SF Pro Text", "Segoe UI", Roboto, sans-serif;
         font-size: 14px;
-        font-weight: 400;
-        letter-spacing: 0.5px;
-        fill: #86868b;
-      }
-      .spec {
-        font-family: 'Fira Code', ui-monospace, SFMono-Regular, monospace;
-        font-size: 12px;
         font-weight: 500;
-        letter-spacing: 1.2px;
-        fill: #64748b;
+        fill: #f8fafc;
+      }
+      .wireframe {
+        fill: none;
+        stroke: #38bdf8;
+        stroke-width: 1.5;
+        stroke-opacity: 0.6;
       }
     </style>
   </defs>
 
-  <!-- Canvas Surface with Hairline Border -->
-  <rect x="1" y="1" width="1198" height="258" rx="12" fill="url(#bg)" stroke="#30363d" stroke-width="1" />
-  <rect x="1" y="1" width="1198" height="258" rx="12" fill="url(#radialGlow)" />
-  <rect x="1" y="1" width="1198" height="258" rx="12" fill="url(#grid)" />
+  <!-- Background Base -->
+  <rect width="1200" height="280" fill="url(#bgGrad)" />
 
-  <!-- Content Block -->
-  <g transform="translate(64, 82)">
-    <text x="0" y="0" class="tagline">ENGINEERING PORTFOLIO &amp; RESEARCH ARCHIVE</text>
-    <text x="0" y="44" class="title">RITHUL RAVEENDRAN</text>
-    <text x="0" y="80" class="institution">B.Tech in Artificial Intelligence &amp; Machine Learning · St. Joseph's College of Engineering, Chennai</text>
-    <text x="0" y="112" class="spec">MULTIMODAL AI  ·  EDGE VISION (RV1106)  ·  RAG AGENTS  ·  700+ PROBLEMS SOLVED</text>
+  <!-- Center Glowing Dome Arch (Kiran-style arch) -->
+  <ellipse cx="600" cy="0" rx="380" ry="240" fill="url(#archGrad)" />
+  <circle cx="600" cy="110" r="160" fill="url(#glow)" />
+
+  <!-- Center Avatar Circle with GitHub Octocat Icon -->
+  <g transform="translate(600, 75)">
+    <circle cx="0" cy="0" r="42" fill="#0b1120" stroke="#38bdf8" stroke-width="2" />
+    <!-- Octocat Silhouette -->
+    <path d="M0 -24 C-13 -24 -24 -13 -24 0 C-24 11 -17 20 -7 23 C-6 23 -5.5 22.5 -5.5 22 L-5.5 17.5 C-12 19 -13.5 14.5 -13.5 14.5 C-14.5 12 -16 11.5 -16 11.5 C-18 10 -16 10 -16 10 C-14 10 -12.5 12 -12.5 12 C-10.5 15.5 -7 14.5 -5.5 14 C-5.3 12.5 -4.7 11.5 -4 11 C-9 10.5 -14.5 8.5 -14.5 0 C-14.5 -2.5 -13.5 -4.5 -12 -6.2 C-12.2 -6.8 -13 -9 -11.8 -12 C-11.8 -12 -10 -12.5 -5.8 -9.5 C-4 -10 -2 -10.3 0 -10.3 C2 -10.3 4 -10 5.8 -9.5 C10 -12.5 11.8 -12 11.8 -12 C13 -9 12.2 -6.8 12 -6.2 C13.5 -4.5 14.5 -2.5 14.5 0 C14.5 8.5 9 10.5 4 11 C4.8 11.7 5.5 13 5.5 15 L5.5 22 C5.5 22.5 6 23 7 23 C17 20 24 11 24 0 C24 -13 13 -24 0 -24 Z" fill="#ffffff" />
+    <!-- Pixel Sunglasses -->
+    <rect x="-14" y="-7" width="13" height="6" fill="#000000" />
+    <rect x="1" y="-7" width="13" height="6" fill="#000000" />
+    <rect x="-1" y="-6" width="2" height="2" fill="#000000" />
+    <rect x="-12" y="-6" width="3" height="2" fill="#38bdf8" />
+    <rect x="3" y="-6" width="3" height="2" fill="#38bdf8" />
   </g>
 
-  <!-- Technical Corner Accent -->
-  <g transform="translate(1120, 48)" opacity="0.6">
-    <path d="M 0 0 L 28 0 L 28 28" fill="none" stroke="#38bdf8" stroke-width="1.5" />
-    <circle cx="28" cy="0" r="2.5" fill="#38bdf8" />
+  <!-- Big Bold Typography: HELLO WORLD -->
+  <text x="600" y="172" text-anchor="middle" class="hero-title">HELLO WORLD</text>
+  <text x="600" y="202" text-anchor="middle" class="hero-sub">WELCOME TO MY PROFILE</text>
+
+  <!-- Left Side: Portfolio link + Geometric Accents -->
+  <g transform="translate(90, 168)">
+    <!-- Globe Icon -->
+    <circle cx="12" cy="0" r="11" fill="none" stroke="#38bdf8" stroke-width="1.5" />
+    <ellipse cx="12" cy="0" rx="4.5" ry="11" fill="none" stroke="#38bdf8" stroke-width="1.2" />
+    <line x1="1" y1="0" x2="23" y2="0" stroke="#38bdf8" stroke-width="1.2" />
+    <text x="32" y="5" class="meta-link">https://rithulraveendran.github.io</text>
+
+    <!-- 3 Geometric Parallelograms -->
+    <g transform="translate(15, 32)">
+      <polygon points="0,20 18,0 48,0 30,20" class="wireframe" />
+      <polygon points="36,20 54,0 84,0 66,20" class="wireframe" />
+      <polygon points="72,20 90,0 120,0 102,20" class="wireframe" />
+    </g>
+  </g>
+
+  <!-- Right Side: Email + Geometric Accents -->
+  <g transform="translate(860, 168)">
+    <!-- Mail Icon -->
+    <rect x="0" y="-9" width="22" height="17" rx="3" fill="none" stroke="#38bdf8" stroke-width="1.5" />
+    <polyline points="0,-7 11,2 22,-7" fill="none" stroke="#38bdf8" stroke-width="1.5" />
+    <text x="32" y="5" class="meta-link">flightsofwhisper@gmail.com</text>
+
+    <!-- 3 Geometric Parallelograms -->
+    <g transform="translate(65, 32)">
+      <polygon points="0,20 18,0 48,0 30,20" class="wireframe" />
+      <polygon points="36,20 54,0 84,0 66,20" class="wireframe" />
+      <polygon points="72,20 90,0 120,0 102,20" class="wireframe" />
+    </g>
   </g>
 </svg>

@@ -53,12 +53,26 @@ I am a second-year B.Tech student in <strong>Artificial Intelligence and Machine
 
 <br />
 
-<!-- GitHub Trophies -->
-<h2 align="center">🏆 Gɪᴛʜᴜʙ Tʀᴏᴘʜɪᴇs 🏆</h2>
+<!-- GitHub Trophies & Official Achievements -->
+<h2 align="center">🏆 Gɪᴛʜᴜʙ Tʀᴏᴘʜɪᴇs &amp; Aᴄʜɪᴇᴠᴇᴍᴇɴᴛs 🏆</h2>
 
 <p align="center">
   <a href="https://github.com/rithulraveendran">
-    <img src="https://github-profile-trophy-ruddy.vercel.app/?username=rithulraveendran&no-bg=true&row=2&column=4&margin-w=15&margin-h=15&theme=monokai" alt="GitHub Trophies" />
+    <img src="https://github-profile-trophy-ruddy.vercel.app/?username=rithulraveendran&no-bg=true&row=2&column=4&margin-w=15&margin-h=15&theme=monokai&titles=Stars,Commits,PullRequest,Repositories,Followers,Issues,Experience" alt="GitHub Trophies" />
+  </a>
+</p>
+
+<p align="center">
+  <a href="https://github.com/rithulraveendran?tab=achievements" target="_blank">
+    <img src="https://github.githubassets.com/assets/yolo-default-be0bbff04951.png" width="65" alt="Achievement: YOLO" />
+  </a>
+  &nbsp;&nbsp;&nbsp;&nbsp;
+  <a href="https://github.com/rithulraveendran?tab=achievements" target="_blank">
+    <img src="https://github.githubassets.com/assets/pull-shark-default-498c279a747d.png" width="65" alt="Achievement: Pull Shark" />
+  </a>
+  &nbsp;&nbsp;&nbsp;&nbsp;
+  <a href="https://github.com/rithulraveendran?tab=achievements" target="_blank">
+    <img src="https://github.githubassets.com/assets/quickdraw-default-39c6aec8ff89.png" width="65" alt="Achievement: Quickdraw" />
   </a>
 </p>
 
