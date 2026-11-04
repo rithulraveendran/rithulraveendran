@@ -1,21 +1,38 @@
+<!-- Animated Dynamic Header Banner -->
 <div align="center">
-
-  <h1>Rithul Raveendran</h1>
-  <p><strong>B.Tech in Artificial Intelligence &amp; Machine Learning · St. Joseph's College of Engineering, Chennai</strong></p>
-  <p><em>Alumnus of Sainik School Kazhakootam</em></p>
-
-  <p>
-    <a href="https://rithulraveendran.github.io/" target="_blank">
-      <img src="https://img.shields.io/badge/%E2%97%86_EXPLORE_LIVE_PORTFOLIO-rithulraveendran.github.io-000000?style=for-the-badge&logo=safari&logoColor=white&labelColor=161b22" alt="Live Portfolio" />
-    </a>
-  </p>
-
+  <img src="assets/header.svg" width="100%" alt="Rithul Raveendran — AI & ML Engineer" />
 </div>
 
-<!-- Real-time Animated Typing Terminal -->
-<div align="center">
-  <img alt="Typing Animation" src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=19&duration=3000&pause=1000&color=38BDF8&center=true&vCenter=true&width=700&height=46&lines=AI+%26+Machine+Learning+Engineer;Multimodal+AI+%E2%80%A2+Computer+Vision+%E2%80%A2+RAG;700%2B+Problems+Solved+Across+Platforms;Winner+%E2%80%94+Makeathon+2.0+%26+Makeathon+3.0;Building+Clean%2C+Quiet+%26+Resilient+Systems" />
-</div>
+<br />
+
+<!-- Hero Two-Column Layout: Bio, Typing Terminal & Developer Animation -->
+<table>
+  <tr>
+    <td valign="middle" width="63%">
+      <h2>Hey there, I'm Rithul! <img src="assets/wave.gif" width="30" alt="Waving hand" /></h2>
+      <p>
+        I'm a second-year B.Tech student in <strong>Artificial Intelligence &amp; Machine Learning</strong> at <strong>St. Joseph's College of Engineering, Chennai</strong>, and an alumnus of <strong>Sainik School Kazhakootam</strong>.
+      </p>
+      <!-- Real-time Animated Typing Terminal -->
+      <p>
+        <a href="https://rithulraveendran.github.io/" target="_blank">
+          <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=16&duration=3000&pause=1000&color=38BDF8&width=480&height=44&lines=Multimodal+AI+%E2%80%A2+Computer+Vision+%E2%80%A2+RAG;700%2B+Problems+Solved+Across+Platforms;Winner+%E2%80%94+Makeathon+2.0+%26+Makeathon+3.0;Building+Clean%2C+Quiet+%26+Resilient+Systems" alt="Typing Terminal" />
+        </a>
+      </p>
+      <p>
+        <a href="https://rithulraveendran.github.io/" target="_blank">
+          <img src="https://img.shields.io/badge/%E2%97%86_EXPLORE_LIVE_PORTFOLIO-rithulraveendran.github.io-000000?style=for-the-badge&logo=safari&logoColor=white&labelColor=161b22" alt="Live Portfolio" />
+        </a>
+        <img src="https://komarev.com/ghpvc/?username=rithulraveendran&color=0891b2&style=for-the-badge&label=VIEWS" alt="Profile Views" />
+      </p>
+    </td>
+    <td align="center" valign="middle" width="37%">
+      <a href="https://github.com/rithulraveendran">
+        <img src="assets/developer.gif" width="280" alt="Software Engineering Workspace" style="border-radius: 12px;" />
+      </a>
+    </td>
+  </tr>
+</table>
 
 <p align="center">
   <a href="https://rithulraveendran.github.io/" target="_blank">
@@ -43,15 +60,15 @@
 
 ---
 
-### ⚡ About
+### ⚡ Technical Focus & Engineering Philosophy
 
-I engineer production-grade machine learning pipelines, edge computer vision systems, and resilient backend architectures. 
+I bridge the gap between applied machine learning models, edge hardware constraints, and production software architecture:
 
 - 🎙️ **Multimodal AI & Speech:** Audio characteristic extraction (`librosa`) combined with agentic decision graphs (`LangGraph`) and pgvector retrieval.
 - 👁️ **Computer Vision & Edge Inference:** On-device YOLO models deployed on embedded hardware (`Luckfox Pico Pro Max RV1106`) with optimized C/C++ runtimes.
 - ⚡ **Competitive Problem Solving:** **700+ problems solved** across LeetCode, SkillRack, CodeChef, and Codeforces.
 - 🏆 **Hackathons:** 1st Place Winner at **Makeathon 2.0** and **Makeathon 3.0**.
-- 🌐 **Live Interactive Portfolio:** Explore live telemetry, project schematics, and interactive visualizers at [rithulraveendran.github.io](https://rithulraveendran.github.io/).
+- 🌐 **Interactive Portfolio:** Explore real-time telemetry, architecture schematics, and interactive visualizers at [rithulraveendran.github.io](https://rithulraveendran.github.io/).
 
 ---
 

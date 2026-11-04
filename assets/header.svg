@@ -1,0 +1,138 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 920 220" width="100%" height="220">
+  <defs>
+    <!-- Background Gradient -->
+    <linearGradient id="bgGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#030712" />
+      <stop offset="45%" stop-color="#0b1728" />
+      <stop offset="85%" stop-color="#072238" />
+      <stop offset="100%" stop-color="#083344" />
+    </linearGradient>
+
+    <!-- Radial Cyan Accent Glow -->
+    <radialGradient id="cyanGlow" cx="85%" cy="30%" r="55%">
+      <stop offset="0%" stop-color="#38bdf8" stop-opacity="0.32" />
+      <stop offset="50%" stop-color="#0284c7" stop-opacity="0.12" />
+      <stop offset="100%" stop-color="#030712" stop-opacity="0" />
+    </radialGradient>
+
+    <radialGradient id="leftGlow" cx="15%" cy="80%" r="50%">
+      <stop offset="0%" stop-color="#0ea5e9" stop-opacity="0.18" />
+      <stop offset="100%" stop-color="#030712" stop-opacity="0" />
+    </radialGradient>
+
+    <!-- Animated Wave 1 Gradient -->
+    <linearGradient id="wave1" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#0284c7" stop-opacity="0.25" />
+      <stop offset="50%" stop-color="#38bdf8" stop-opacity="0.45" />
+      <stop offset="100%" stop-color="#06b6d4" stop-opacity="0.15" />
+    </linearGradient>
+
+    <!-- Subtle Tech Grid Pattern -->
+    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
+      <path d="M 32 0 L 0 0 0 32" fill="none" stroke="#ffffff" stroke-width="1" stroke-opacity="0.04" />
+      <circle cx="0" cy="0" r="1" fill="#38bdf8" fill-opacity="0.25" />
+    </pattern>
+
+    <style>
+      .title-text {
+        font-family: -apple-system, BlinkMacSystemFont, 'SF Pro Display', 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+        font-size: 36px;
+        font-weight: 800;
+        letter-spacing: 2.5px;
+        fill: #ffffff;
+      }
+      .badge-text {
+        font-family: -apple-system, BlinkMacSystemFont, 'SF Pro Text', 'Segoe UI', Roboto, sans-serif;
+        font-size: 11px;
+        font-weight: 700;
+        letter-spacing: 1.8px;
+        fill: #38bdf8;
+      }
+      .subtitle-text {
+        font-family: -apple-system, BlinkMacSystemFont, 'SF Pro Text', 'Segoe UI', Roboto, sans-serif;
+        font-size: 14px;
+        font-weight: 500;
+        letter-spacing: 1.2px;
+        fill: #94a3b8;
+      }
+      .tag-text {
+        font-family: 'Fira Code', ui-monospace, SFMono-Regular, Menlo, monospace;
+        font-size: 11px;
+        font-weight: 500;
+        letter-spacing: 1.5px;
+        fill: #7dd3fc;
+      }
+      .status-text {
+        font-family: -apple-system, BlinkMacSystemFont, 'SF Pro Text', 'Segoe UI', Roboto, sans-serif;
+        font-size: 10.5px;
+        font-weight: 600;
+        letter-spacing: 1.2px;
+        fill: #e2e8f0;
+      }
+    </style>
+  </defs>
+
+  <!-- Canvas Container with Rounded Hairline Border -->
+  <rect x="1" y="1" width="918" height="218" rx="16" fill="url(#bgGradient)" stroke="#38bdf8" stroke-width="1" stroke-opacity="0.25" />
+  <rect x="1" y="1" width="918" height="218" rx="16" fill="url(#cyanGlow)" />
+  <rect x="1" y="1" width="918" height="218" rx="16" fill="url(#leftGlow)" />
+  <rect x="1" y="1" width="918" height="218" rx="16" fill="url(#grid)" />
+
+  <!-- Animated Fluid Waves in Background -->
+  <path fill="url(#wave1)">
+    <animate attributeName="d" dur="12s" repeatCount="indefinite"
+      values="
+        M 0 170 Q 230 140 460 175 T 920 165 L 920 220 L 0 220 Z;
+        M 0 165 Q 230 190 460 155 T 920 175 L 920 220 L 0 220 Z;
+        M 0 170 Q 230 140 460 175 T 920 165 L 920 220 L 0 220 Z
+      " />
+  </path>
+  <path fill="#0284c7" opacity="0.18">
+    <animate attributeName="d" dur="18s" repeatCount="indefinite"
+      values="
+        M 0 185 Q 230 165 460 195 T 920 180 L 920 220 L 0 220 Z;
+        M 0 180 Q 230 200 460 170 T 920 190 L 920 220 L 0 220 Z;
+        M 0 185 Q 230 165 460 195 T 920 180 L 920 220 L 0 220 Z
+      " />
+  </path>
+
+  <!-- Top Status Bar & Chips -->
+  <g transform="translate(48, 38)">
+    <!-- Status Chip -->
+    <rect x="0" y="0" width="168" height="26" rx="13" fill="#0f172a" fill-opacity="0.85" stroke="#38bdf8" stroke-width="1" stroke-opacity="0.3" />
+    <!-- Pulsing Live Indicator -->
+    <circle cx="16" cy="13" r="4.5" fill="#10b981">
+      <animate attributeName="r" values="4;5.5;4" dur="2s" repeatCount="indefinite" />
+      <animate attributeName="opacity" values="1;0.6;1" dur="2s" repeatCount="indefinite" />
+    </circle>
+    <text x="28" y="17" class="status-text">ACTIVE &amp; BUILDING</text>
+
+    <!-- Location & College Tags -->
+    <text x="185" y="17" class="badge-text" opacity="0.85">ST. JOSEPH'S COLLEGE OF ENG · CHENNAI</text>
+  </g>
+
+  <!-- Main Identity Headline -->
+  <text x="48" y="112" class="title-text">RITHUL RAVEENDRAN</text>
+
+  <!-- Subtitle Specialization -->
+  <text x="50" y="142" class="subtitle-text">B.Tech in Artificial Intelligence &amp; Machine Learning · Alumnus of Sainik School Kazhakootam</text>
+
+  <!-- Focus Tags Row -->
+  <g transform="translate(50, 168)">
+    <rect x="0" y="0" width="138" height="24" rx="6" fill="#0369a1" fill-opacity="0.22" stroke="#38bdf8" stroke-width="1" stroke-opacity="0.35" />
+    <text x="12" y="16" class="tag-text">MULTIMODAL AI</text>
+
+    <rect x="148" y="0" width="160" height="24" rx="6" fill="#0369a1" fill-opacity="0.22" stroke="#38bdf8" stroke-width="1" stroke-opacity="0.35" />
+    <text x="160" y="16" class="tag-text">EDGE VISION (RV1106)</text>
+
+    <rect x="318" y="0" width="145" height="24" rx="6" fill="#0369a1" fill-opacity="0.22" stroke="#38bdf8" stroke-width="1" stroke-opacity="0.35" />
+    <text x="330" y="16" class="tag-text">RAG &amp; LANGGRAPH</text>
+
+    <rect x="473" y="0" width="165" height="24" rx="6" fill="#0369a1" fill-opacity="0.22" stroke="#38bdf8" stroke-width="1" stroke-opacity="0.35" />
+    <text x="485" y="16" class="tag-text">700+ PROBLEMS SOLVED</text>
+  </g>
+
+  <!-- Geometric Corner Accent -->
+  <path d="M 875 35 L 895 35 L 895 55" fill="none" stroke="#38bdf8" stroke-width="2" stroke-linecap="round" opacity="0.6" />
+  <circle cx="895" cy="35" r="2.5" fill="#38bdf8" opacity="0.9" />
+</svg>
