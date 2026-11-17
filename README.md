@@ -31,14 +31,17 @@
 
 ### 🏛️ Core Engineering Disciplines
 
-* **Edge Computer Vision & Embedded Acceleration**  
-  Deploying quantized YOLO models onto embedded silicon (`Luckfox Pico Pro Max RV1106` / Rockchip NPU). Specializing in model compression, INT8 quantization-aware training (QAT), DMA zero-copy ring buffers, and sub-15ms real-time visual inference on resource-constrained platforms.
+* **Multimodal AI & Speech Intelligence**  
+  Developing audio feature extraction pipelines (`librosa`) combined with high-dimensional representation learning, spectrogram analysis, and multimodal reasoning systems.
 
-* **Multimodal AI & Agentic Decision Graphs**  
-  Engineering audio characteristic extraction pipelines (`librosa`) integrated with stateful graph orchestration (`LangGraph`) and high-dimensional semantic search (`pgvector` on `PostgreSQL`).
+* **Agentic Decision Graphs & Semantic Search**  
+  Designing autonomous, stateful agentic workflows using `LangGraph` decision graphs, structured tool dispatch, and high-dimensional semantic vector indexing with `pgvector` on `PostgreSQL`.
 
-* **Systems Architecture & Algorithmic Foundations**  
-  Designing high-throughput asynchronous services using `FastAPI`, `Flask`, and `Docker`. **700+ algorithmic problems solved** across competitive programming platforms; 1st Place Winner at **Makeathon 2.0** and **Makeathon 3.0**.
+* **Backend Systems & High-Throughput Architectures**  
+  Engineering scalable, asynchronous services and APIs with `FastAPI`, `Flask`, `Docker`, and `Linux`. Focus on resilient data flow, low latency, and clean modular boundaries.
+
+* **Algorithmic Foundations & Competitive Problem Solving**  
+  **700+ algorithmic problems solved** across LeetCode, SkillRack, CodeChef, and Codeforces; 1st Place Winner at **Makeathon 2.0** and **Makeathon 3.0**.
 
 ---
 
@@ -47,9 +50,9 @@
 | Domain | Systems & Technologies |
 | :--- | :--- |
 | **Languages** | `Python` · `C` · `C++` · `TypeScript` · `SQL` · `Bash` |
-| **AI / ML & Computer Vision** | `PyTorch` · `YOLOv8 / v11` · `OpenCV` · `LangGraph` · `Librosa` · `Hugging Face` |
-| **Backend & Infrastructure** | `FastAPI` · `Flask` · `PostgreSQL` · `pgvector` · `SQLite` · `Docker` · `Linux (Ubuntu/Debian)` |
-| **Hardware & Embedded** | `Luckfox Pico RV1106 (Rockchip ARM / RISC-V NPU)` · `Git` · `VS Code` · `Postman` |
+| **AI / ML & Frameworks** | `PyTorch` · `OpenCV` · `LangGraph` · `Librosa` · `pgvector` · `Hugging Face` |
+| **Backend & Databases** | `FastAPI` · `Flask` · `PostgreSQL` · `SQLite` · `Docker` · `Linux (Ubuntu/Debian)` |
+| **Developer Tools** | `Git` · `GitHub` · `VS Code` · `Postman` |
 
 <br />
 

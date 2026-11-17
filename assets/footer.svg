@@ -35,13 +35,13 @@
   <line x1="64" y1="0" x2="1136" y2="0" stroke="#30363d" stroke-width="1" />
   <rect x="580" y="0" width="40" height="1.5" fill="#58a6ff" />
 
-  <!-- Left: Identity & Core Philosophy -->
+  <!-- Left: Identity & Philosophy -->
   <g transform="translate(64, 46)">
     <text x="0" y="0" class="sans foot-title">RITHUL RAVEENDRAN</text>
     <text x="0" y="20" class="mono foot-sub">ENGINEERED FOR RESILIENCE, COMPUTATIONAL EFFICIENCY &amp; CLARITY</text>
   </g>
 
-  <!-- Center: Minimal Coordinate Mark -->
+  <!-- Center: Coordinate Crosshair Mark -->
   <g transform="translate(600, 48)">
     <circle cx="0" cy="0" r="14" fill="#0d1117" stroke="#30363d" stroke-width="1" />
     <path d="M -5 0 L 5 0 M 0 -5 L 0 5" stroke="#58a6ff" stroke-width="1.2" />
@@ -50,7 +50,7 @@
 
   <!-- Right: Metadata & Portfolio Link -->
   <g transform="translate(1136, 46)">
-    <text x="0" y="0" text-anchor="end" class="mono foot-right-title">AI &amp; EMBEDDED SYSTEMS // 2026</text>
+    <text x="0" y="0" text-anchor="end" class="mono foot-right-title">AI &amp; SYSTEMS ARCHITECTURE // 2026</text>
     <text x="0" y="20" text-anchor="end" class="mono foot-right-link">rithulraveendran.github.io</text>
   </g>
 </svg>
