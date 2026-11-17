@@ -1,58 +1,57 @@
-<!-- Header Graphic -->
+<!-- F1 Telemetry Header Graphic -->
 <p align="center">
   <img src="assets/banner.svg" width="100%" alt="Rithul Raveendran - AI & Machine Learning Engineer" />
 </p>
 
-<!-- Identity & Executive Summary -->
+<!-- Driver & Engineering Identity -->
 <div align="center">
-  <h3><strong>Rithul Raveendran</strong></h3>
+  <h2><strong>RITHUL RAVEENDRAN</strong></h2>
   <p>
-    <strong>AI &amp; Machine Learning Engineer · Systems Builder</strong><br />
-    <sub>Second-Year B.Tech in Artificial Intelligence &amp; Machine Learning at <strong>St. Joseph's College of Engineering, Chennai</strong></sub><br />
+    <strong>AI &amp; Machine Learning Engineer · Systems Architect</strong><br />
+    <sub>B.Tech in Artificial Intelligence &amp; Machine Learning at <strong>St. Joseph's College of Engineering, Chennai</strong></sub><br />
     <sub>Alumnus of <strong>Sainik School Kazhakootam</strong></sub>
   </p>
   <p>
     <a href="https://rithulraveendran.github.io/" target="_blank">
-      <img src="https://img.shields.io/badge/Portfolio-rithulraveendran.github.io-0d1117?style=flat-square&logo=safari&logoColor=white&labelColor=161b22" alt="Portfolio" />
+      <img src="https://img.shields.io/badge/PADDOCK_PORTFOLIO-rithulraveendran.github.io-e10600?style=for-the-badge&logo=safari&logoColor=white&labelColor=0d0e13" alt="Portfolio" />
     </a>
+    &nbsp;
     <a href="https://www.linkedin.com/in/rithulraveendran/" target="_blank">
-      <img src="https://img.shields.io/badge/LinkedIn-rithulraveendran-0d1117?style=flat-square&logo=linkedin&logoColor=white&labelColor=161b22" alt="LinkedIn" />
+      <img src="https://img.shields.io/badge/LINKEDIN-rithulraveendran-14161f?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=0d0e13" alt="LinkedIn" />
     </a>
-    <a href="https://leetcode.com/u/rithulraveendran/" target="_blank">
-      <img src="https://img.shields.io/badge/LeetCode-rithulraveendran-0d1117?style=flat-square&logo=leetcode&logoColor=white&labelColor=161b22" alt="LeetCode" />
-    </a>
-    <a href="mailto:iamrithulr@gmail.com">
-      <img src="https://img.shields.io/badge/Email-iamrithulr%40gmail.com-0d1117?style=flat-square&logo=gmail&logoColor=white&labelColor=161b22" alt="Email" />
+    &nbsp;
+    <a href="https://github.com/rithulraveendran" target="_blank">
+      <img src="https://img.shields.io/badge/GITHUB-rithulraveendran-14161f?style=for-the-badge&logo=github&logoColor=white&labelColor=0d0e13" alt="GitHub" />
     </a>
   </p>
 </div>
 
 ---
 
-### 🏛️ Core Engineering Disciplines
+### 🏎️ Power Unit & Core Disciplines
 
-* **Multimodal AI & Speech Intelligence**  
-  Developing audio feature extraction pipelines (`librosa`) combined with high-dimensional representation learning, spectrogram analysis, and multimodal reasoning systems.
+* **Multimodal Intelligence & Speech Telemetry**  
+  Acoustic characteristic analysis and feature extraction using `librosa`, combined with high-dimensional latent space representations and multimodal reasoning pipelines.
 
-* **Agentic Decision Graphs & Semantic Search**  
-  Designing autonomous, stateful agentic workflows using `LangGraph` decision graphs, structured tool dispatch, and high-dimensional semantic vector indexing with `pgvector` on `PostgreSQL`.
+* **Agentic Workflows & High-Dimensional Semantic Retrieval**  
+  Constructing stateful decision graphs and autonomous tool dispatching with `LangGraph`, backed by sub-millisecond vector indexing using `pgvector` on `PostgreSQL`.
 
-* **Backend Systems & High-Throughput Architectures**  
-  Engineering scalable, asynchronous services and APIs with `FastAPI`, `Flask`, `Docker`, and `Linux`. Focus on resilient data flow, low latency, and clean modular boundaries.
+* **High-RPM Distributed Backend Architectures**  
+  Engineering high-throughput, low-latency microservices with `FastAPI`, `Flask`, `Docker`, and `Linux`. Built for resilient data ingestion, zero-copy memory pipelines, and maximum reliability under load.
 
-* **Algorithmic Foundations & Competitive Problem Solving**  
-  **700+ algorithmic problems solved** across LeetCode, SkillRack, CodeChef, and Codeforces; 1st Place Winner at **Makeathon 2.0** and **Makeathon 3.0**.
+* **Engineering Competitions & Hackathons**  
+  **1st Place Winner** at **Makeathon 2.0** and **Makeathon 3.0**.
 
 ---
 
-### 🛠️ Technical Tooling & Stack
+### 🛠️ Paddock Tooling & Technical Stack
 
-| Domain | Systems & Technologies |
+| Category | Systems & Technologies |
 | :--- | :--- |
 | **Languages** | `Python` · `C` · `C++` · `TypeScript` · `SQL` · `Bash` |
-| **AI / ML & Frameworks** | `PyTorch` · `OpenCV` · `LangGraph` · `Librosa` · `pgvector` · `Hugging Face` |
-| **Backend & Databases** | `FastAPI` · `Flask` · `PostgreSQL` · `SQLite` · `Docker` · `Linux (Ubuntu/Debian)` |
-| **Developer Tools** | `Git` · `GitHub` · `VS Code` · `Postman` |
+| **AI / ML & Machine Intelligence** | `PyTorch` · `OpenCV` · `LangGraph` · `Librosa` · `pgvector` · `Hugging Face` |
+| **Backend & Data Infrastructure** | `FastAPI` · `Flask` · `PostgreSQL` · `SQLite` · `Docker` · `Linux (Ubuntu/Debian)` |
+| **Paddock Tooling** | `Git` · `GitHub` · `VS Code` · `Postman` |
 
 <br />
 
@@ -64,7 +63,7 @@
 
 ---
 
-### 📊 GitHub Activity & Telemetry
+### 📊 Live Telemetry & Track Activity
 
 <div align="center">
   <table border="0" cellspacing="0" cellpadding="0">
@@ -77,7 +76,7 @@
       <td width="20"></td>
       <td align="center" valign="middle">
         <a href="https://github.com/rithulraveendran">
-          <img src="https://streak-stats.demolab.com?user=rithulraveendran&theme=dark&background=0D1117&border=30363D&stroke=30363D&ring=58A6FF&fire=58A6FF&currStreakNum=F0F6FC&sideNums=8B949E&currStreakLabel=8B949E&sideLabels=8B949E&dates=6E7681" alt="Streak Stats" />
+          <img src="https://streak-stats.demolab.com?user=rithulraveendran&theme=dark&background=0D0E13&border=232733&stroke=232733&ring=E10600&fire=E10600&currStreakNum=FFFFFF&sideNums=8A8F9D&currStreakLabel=E10600&sideLabels=8A8F9D&dates=8A8F9D" alt="F1 Streak Stats" />
         </a>
       </td>
     </tr>
@@ -86,53 +85,34 @@
 
 <br />
 
-#### Contribution Activity
+#### Contribution Speed Trace
 <p align="center">
-  <img src="https://activity-graph-kappa.vercel.app/graph?username=rithulraveendran&bg_color=0d1117&color=c9d1d9&line=58a6ff&point=ffffff&area=true&area_color=161b22&hide_border=true" width="100%" alt="Contribution Graph" />
+  <img src="https://activity-graph-kappa.vercel.app/graph?username=rithulraveendran&bg_color=0d0e13&color=ffffff&line=e10600&point=ffffff&area=true&area_color=1c0808&hide_border=true" width="100%" alt="Contribution Speed Trace" />
 </p>
 
 ---
 
-### ⏱️ WakaTime Language Telemetry
+### ⏱️ Pit Wall Telemetry (WakaTime Engine Runtime)
 
 <p align="center">
   <a href="https://wakatime.com/@59e2b09e-3c6d-4097-ba67-eb39be54a650" target="_blank">
-    <img src="assets/wakatime.svg" width="100%" alt="WakaTime Language Telemetry" />
+    <img src="assets/wakatime.svg" width="100%" alt="WakaTime Pit Wall Telemetry" />
   </a>
 </p>
 
 ---
 
-### ⚡ Competitive Problem Solving
+### 🏁 Paddock Network
 
-<p align="center">
-  <strong>700+ Algorithmic Problems Solved</strong> Across Platforms (LeetCode, SkillRack, CodeChef, Codeforces)<br />
-  <sub>1st Place Winner — Makeathon 2.0 &amp; Makeathon 3.0</sub>
-</p>
-
-<p align="center">
-  <a href="https://leetcode.com/u/rithulraveendran/" target="_blank">
-    <img height="195" src="https://leetcard.jacoblin.cool/rithulraveendran?theme=dark&font=Fira%20Code&ext=heatmap" alt="LeetCode Card" />
-  </a>
-</p>
-
----
-
-### 🤝 Connect & Network
-
-| Channel | Endpoint / Handle | Focus |
+| Channel | Endpoint / Destination | Focus |
 | :--- | :--- | :--- |
-| **Interactive Portfolio** | [rithulraveendran.github.io](https://rithulraveendran.github.io/) | Project Schematics & Live Telemetry |
-| **LinkedIn** | [linkedin.com/in/rithulraveendran](https://www.linkedin.com/in/rithulraveendran/) | Professional & Research Inquiries |
-| **GitHub** | [@rithulraveendran](https://github.com/rithulraveendran) | Open Source & Systems Code |
-| **LeetCode** | [@rithulraveendran](https://leetcode.com/u/rithulraveendran/) | Algorithms & Data Structures |
-| **Codeforces** | [@rithulraveendran](https://codeforces.com/profile/rithulraveendran) | Competitive Contests |
-| **CodeChef** | [@rithulr86](https://www.codechef.com/users/rithulr86) | Competitive Problem Solving |
-| **Direct Email** | [iamrithulr@gmail.com](mailto:iamrithulr@gmail.com) | Engineering & Research Opportunities |
+| **Interactive Portfolio** | [rithulraveendran.github.io](https://rithulraveendran.github.io/) | Systems Telemetry & Project Schematics |
+| **LinkedIn** | [linkedin.com/in/rithulraveendran](https://www.linkedin.com/in/rithulraveendran/) | Engineering & Research Opportunities |
+| **GitHub** | [@rithulraveendran](https://github.com/rithulraveendran) | Production Systems & Open Source Code |
 
 <br />
 
-<!-- Footer Graphic -->
+<!-- Checkered Flag Footer Graphic -->
 <p align="center">
-  <img src="assets/footer.svg" width="100%" alt="Footer - Rithul Raveendran" />
+  <img src="assets/footer.svg" width="100%" alt="F1 Checkered Flag Footer" />
 </p>

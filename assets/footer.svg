@@ -1,56 +1,69 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 110" width="100%" height="110">
   <defs>
     <!-- Background Gradient -->
-    <linearGradient id="footerBg" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#07080a" />
-      <stop offset="50%" stop-color="#0a0c10" />
-      <stop offset="100%" stop-color="#0d1117" />
+    <linearGradient id="footerCarbon" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#08090c" />
+      <stop offset="50%" stop-color="#0d0e13" />
+      <stop offset="100%" stop-color="#12141a" />
     </linearGradient>
 
-    <!-- Grid Pattern -->
-    <pattern id="footerGrid" width="32" height="32" patternUnits="userSpaceOnUse">
-      <path d="M 32 0 L 0 0 0 32" fill="none" stroke="#ffffff" stroke-width="0.5" stroke-opacity="0.02" />
-      <circle cx="0" cy="0" r="0.75" fill="#ffffff" fill-opacity="0.06" />
+    <!-- Subtle Twill Pattern -->
+    <pattern id="footTwill" width="12" height="12" patternUnits="userSpaceOnUse">
+      <rect width="12" height="12" fill="#08090c" />
+      <path d="M 0 0 L 6 6 L 6 0 L 0 6 Z" fill="#14161f" opacity="0.3" />
+      <path d="M 6 6 L 12 12 L 12 6 L 6 12 Z" fill="#14161f" opacity="0.3" />
     </pattern>
 
     <style>
-      .mono { font-family: ui-monospace, "SF Mono", "Geist Mono", Menlo, Consolas, monospace; }
-      .sans { font-family: -apple-system, BlinkMacSystemFont, "SF Pro Display", "Inter", "Segoe UI", Roboto, sans-serif; }
-      .foot-title { font-size: 13px; font-weight: 700; letter-spacing: 2px; fill: #f0f6fc; }
-      .foot-sub { font-size: 9.5px; font-weight: 500; letter-spacing: 1px; fill: #8b949e; }
-      .foot-center { font-size: 9px; font-weight: 500; letter-spacing: 2px; fill: #6e7681; }
-      .foot-right-title { font-size: 10px; font-weight: 600; letter-spacing: 1.5px; fill: #8b949e; }
-      .foot-right-link { font-size: 10.5px; font-weight: 600; letter-spacing: 0.8px; fill: #58a6ff; }
+      .f1-mono { font-family: ui-monospace, "SF Mono", "Geist Mono", "Roboto Mono", Menlo, Consolas, monospace; }
+      .f1-sans { font-family: -apple-system, BlinkMacSystemFont, "SF Pro Display", "Titillium Web", "Inter", "Segoe UI", sans-serif; }
+      .foot-name { font-size: 15px; font-weight: 900; letter-spacing: 3px; fill: #ffffff; font-style: italic; }
+      .foot-sub { font-size: 9.5px; font-weight: 700; letter-spacing: 1.5px; fill: #8a8f9d; }
+      .foot-tele { font-size: 9px; font-weight: 800; letter-spacing: 2px; fill: #e10600; }
+      .foot-link { font-size: 11px; font-weight: 800; letter-spacing: 1px; fill: #ffffff; }
     </style>
   </defs>
 
-  <!-- Base Surfaces -->
-  <rect width="1200" height="110" fill="url(#footerBg)" />
-  <rect width="1200" height="110" fill="url(#footerGrid)" />
+  <!-- Carbon Base -->
+  <rect width="1200" height="110" fill="url(#footerCarbon)" />
+  <rect width="1200" height="110" fill="url(#footTwill)" />
 
-  <!-- Outer Border Hairline -->
-  <rect x="0.5" y="0.5" width="1199" height="109" fill="none" stroke="#21262d" stroke-width="1" />
+  <!-- Outer Border -->
+  <rect x="0.5" y="0.5" width="1199" height="109" fill="none" stroke="#232733" stroke-width="1" />
 
-  <!-- Top Accent Line -->
-  <line x1="64" y1="0" x2="1136" y2="0" stroke="#30363d" stroke-width="1" />
-  <rect x="580" y="0" width="40" height="1.5" fill="#58a6ff" />
+  <!-- Top Finish Line Strip (F1 Red + White Chequered Hairline) -->
+  <line x1="56" y1="0" x2="1144" y2="0" stroke="#232733" stroke-width="1" />
+  <rect x="56" y="0" width="180" height="2.5" fill="#e10600" />
+  <rect x="236" y="0" width="8" height="2.5" fill="#ffffff" />
 
-  <!-- Left: Identity & Philosophy -->
-  <g transform="translate(64, 46)">
-    <text x="0" y="0" class="sans foot-title">RITHUL RAVEENDRAN</text>
-    <text x="0" y="20" class="mono foot-sub">ENGINEERED FOR RESILIENCE, COMPUTATIONAL EFFICIENCY &amp; CLARITY</text>
+  <!-- Left: Checkered Flag Sector Graphic -->
+  <g transform="translate(56, 32)">
+    <!-- 3x2 Chequered Grid -->
+    <g transform="translate(0, 4)">
+      <rect x="0" y="0" width="8" height="8" fill="#ffffff" />
+      <rect x="8" y="0" width="8" height="8" fill="#1e222d" />
+      <rect x="16" y="0" width="8" height="8" fill="#ffffff" />
+      <rect x="0" y="8" width="8" height="8" fill="#1e222d" />
+      <rect x="8" y="8" width="8" height="8" fill="#ffffff" />
+      <rect x="16" y="8" width="8" height="8" fill="#1e222d" />
+    </g>
+
+    <g transform="translate(36, 0)">
+      <text x="0" y="14" class="f1-sans foot-name">RITHUL RAVEENDRAN</text>
+      <text x="0" y="32" class="f1-mono foot-sub">HIGH-PERFORMANCE AI &amp; MACHINE LEARNING SYSTEMS</text>
+    </g>
   </g>
 
-  <!-- Center: Coordinate Crosshair Mark -->
-  <g transform="translate(600, 48)">
-    <circle cx="0" cy="0" r="14" fill="#0d1117" stroke="#30363d" stroke-width="1" />
-    <path d="M -5 0 L 5 0 M 0 -5 L 0 5" stroke="#58a6ff" stroke-width="1.2" />
-    <text x="0" y="28" text-anchor="middle" class="mono foot-center">SYSTEMS · ARCHITECTURE · REASONING</text>
+  <!-- Center: Race Lap Telemetry -->
+  <g transform="translate(600, 46)">
+    <circle cx="0" cy="0" r="14" fill="#12151e" stroke="#e10600" stroke-width="1.2" />
+    <polygon points="-3,-5 5,0 -3,5" fill="#e10600" />
+    <text x="0" y="26" text-anchor="middle" class="f1-mono foot-tele">CHECKERED FLAG // PARC FERMÉ</text>
   </g>
 
-  <!-- Right: Metadata & Portfolio Link -->
-  <g transform="translate(1136, 46)">
-    <text x="0" y="0" text-anchor="end" class="mono foot-right-title">AI &amp; SYSTEMS ARCHITECTURE // 2026</text>
-    <text x="0" y="20" text-anchor="end" class="mono foot-right-link">rithulraveendran.github.io</text>
+  <!-- Right: Portfolio & Telemetry Link -->
+  <g transform="translate(1144, 46)">
+    <text x="0" y="0" text-anchor="end" class="f1-mono foot-sub">FORMULA 1 TELEMETRY // 2026</text>
+    <text x="0" y="20" text-anchor="end" class="f1-mono foot-link" fill="#e10600">rithulraveendran.github.io</text>
   </g>
 </svg>

@@ -1,147 +1,199 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 280" width="100%" height="280">
   <defs>
     <!-- Background Gradient -->
-    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#07080a" />
-      <stop offset="50%" stop-color="#0a0c10" />
-      <stop offset="100%" stop-color="#0d1117" />
+    <linearGradient id="carbonBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#08090c" />
+      <stop offset="50%" stop-color="#0d0e13" />
+      <stop offset="100%" stop-color="#12141a" />
     </linearGradient>
 
-    <!-- Grid Pattern -->
-    <pattern id="archGrid" width="32" height="32" patternUnits="userSpaceOnUse">
-      <path d="M 32 0 L 0 0 0 32" fill="none" stroke="#ffffff" stroke-width="0.5" stroke-opacity="0.025" />
-      <circle cx="0" cy="0" r="0.75" fill="#ffffff" fill-opacity="0.08" />
+    <!-- Carbon Fiber Twill Weave Pattern -->
+    <pattern id="carbonTwill" width="12" height="12" patternUnits="userSpaceOnUse">
+      <rect width="12" height="12" fill="#08090c" />
+      <path d="M 0 0 L 6 6 L 6 0 L 0 6 Z" fill="#14161f" opacity="0.4" />
+      <path d="M 6 6 L 12 12 L 12 6 L 6 12 Z" fill="#14161f" opacity="0.4" />
+      <path d="M 0 6 L 6 12 L 0 12 Z" fill="#1c1f2b" opacity="0.3" />
+      <path d="M 6 0 L 12 6 L 12 0 Z" fill="#1c1f2b" opacity="0.3" />
     </pattern>
 
-    <!-- Core Box Gradient -->
-    <linearGradient id="coreGrad" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#111620" />
-      <stop offset="100%" stop-color="#0b0f16" />
+    <!-- F1 Red Speed Line Gradient -->
+    <linearGradient id="f1RedGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#e10600" />
+      <stop offset="70%" stop-color="#ff1801" />
+      <stop offset="100%" stop-color="#e10600" stop-opacity="0" />
+    </linearGradient>
+
+    <!-- Telemetry Trace Glow -->
+    <linearGradient id="traceGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#ffffff" />
+      <stop offset="40%" stop-color="#e10600" />
+      <stop offset="80%" stop-color="#00d2be" /> <!-- Mercedes/Petronas cyan F1 sector accent -->
+      <stop offset="100%" stop-color="#e10600" />
+    </linearGradient>
+
+    <!-- Telemetry Box Surface -->
+    <linearGradient id="panelGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#141720" />
+      <stop offset="100%" stop-color="#0c0e14" />
     </linearGradient>
 
     <style>
-      .mono { font-family: ui-monospace, "SF Mono", "Geist Mono", Menlo, Consolas, monospace; }
-      .sans { font-family: -apple-system, BlinkMacSystemFont, "SF Pro Display", "Inter", "Segoe UI", Roboto, sans-serif; }
-      .hero-name { font-size: 38px; font-weight: 800; letter-spacing: 3.5px; fill: #f0f6fc; }
-      .hero-sub { font-size: 13.5px; font-weight: 600; letter-spacing: 2.5px; fill: #58a6ff; }
-      .hero-desc { font-size: 12.5px; font-weight: 400; letter-spacing: 0.5px; fill: #8b949e; }
-      .spec-pill { font-size: 10px; font-weight: 500; letter-spacing: 0.8px; fill: #c9d1d9; }
-      .schem-label { font-size: 8.5px; font-weight: 600; letter-spacing: 0.5px; }
-      .footer-meta { font-size: 9.5px; font-weight: 500; letter-spacing: 1px; fill: #6e7681; }
+      .f1-mono { font-family: ui-monospace, "SF Mono", "Geist Mono", "Roboto Mono", Menlo, Consolas, monospace; }
+      .f1-sans { font-family: -apple-system, BlinkMacSystemFont, "SF Pro Display", "Titillium Web", "Inter", "Segoe UI", sans-serif; }
+      .f1-tag { font-size: 10px; font-weight: 800; letter-spacing: 2px; fill: #ffffff; }
+      .f1-title { font-size: 38px; font-weight: 900; letter-spacing: 4px; fill: #ffffff; font-style: italic; }
+      .f1-sub { font-size: 13.5px; font-weight: 700; letter-spacing: 3px; fill: #e10600; }
+      .f1-desc { font-size: 12.5px; font-weight: 400; letter-spacing: 0.8px; fill: #8a8f9d; }
+      .f1-chip { font-size: 9.5px; font-weight: 700; letter-spacing: 1.2px; fill: #f0f2f5; }
+      .telem-label { font-size: 8.5px; font-weight: 700; letter-spacing: 1px; fill: #8a8f9d; }
+      .telem-val { font-size: 11px; font-weight: 800; letter-spacing: 0.5px; fill: #ffffff; }
     </style>
   </defs>
 
-  <!-- Base Surfaces -->
-  <rect width="1200" height="280" fill="url(#bgGrad)" />
-  <rect width="1200" height="280" fill="url(#archGrid)" />
+  <!-- Carbon Fiber Base -->
+  <rect width="1200" height="280" fill="url(#carbonBg)" />
+  <rect width="1200" height="280" fill="url(#carbonTwill)" />
 
-  <!-- Outer Border Hairline -->
-  <rect x="0.5" y="0.5" width="1199" height="279" fill="none" stroke="#21262d" stroke-width="1" />
+  <!-- Outer Precision Border -->
+  <rect x="0.5" y="0.5" width="1199" height="279" fill="none" stroke="#232733" stroke-width="1" />
 
-  <!-- Corner Crosshair Ticks -->
-  <g stroke="#30363d" stroke-width="1">
-    <path d="M 24 16 L 24 32 M 16 24 L 32 24" />
-    <path d="M 1176 16 L 1176 32 M 1168 24 L 1184 24" />
-    <path d="M 24 248 L 24 264 M 16 256 L 32 256" />
-    <path d="M 1176 248 L 1176 264 M 1168 256 L 1184 256" />
+  <!-- Top Aerodynamic Apex Accent Line -->
+  <rect x="0" y="0" width="1200" height="3" fill="#141722" />
+  <rect x="0" y="0" width="360" height="3" fill="url(#f1RedGrad)" />
+  <rect x="360" y="0" width="12" height="3" fill="#ffffff" />
+
+  <!-- Left Angled Racing Hazard Chevrons -->
+  <g transform="translate(18, 18)" opacity="0.8">
+    <polygon points="0,0 6,0 12,244 6,244" fill="#e10600" />
+    <polygon points="10,0 13,0 19,244 16,244" fill="#ffffff" opacity="0.3" />
   </g>
 
-  <!-- ==================== LEFT: TYPOGRAPHY & IDENTITY ==================== -->
-  <g transform="translate(64, 68)">
-    <text x="0" y="0" class="sans hero-name">RITHUL RAVEENDRAN</text>
-    <text x="0" y="26" class="sans hero-sub">AI &amp; MACHINE LEARNING ENGINEER · SYSTEMS BUILDER</text>
-    <text x="0" y="48" class="sans hero-desc">Multimodal Intelligence · Agentic Decision Systems · Resilient Architectures</text>
+  <!-- ==================== LEFT: DRIVER & SYSTEMS IDENTITY ==================== -->
+  <!-- Category Tag -->
+  <g transform="translate(56, 38)">
+    <rect x="0" y="0" width="14" height="18" fill="#e10600" />
+    <text x="6" y="13" class="f1-mono" font-size="10" font-weight="900" fill="#ffffff" text-anchor="middle">01</text>
+    <text x="24" y="13.5" class="f1-mono f1-tag" fill="#e10600">FORMULA 1 // PADDOCK ENGINEERING</text>
   </g>
 
-  <!-- Three Architecture Tags (Apple-Restraint Pills) -->
-  <g transform="translate(64, 154)">
-    <!-- Pill 1 -->
+  <!-- Driver Name & Roles -->
+  <g transform="translate(56, 92)">
+    <text x="0" y="0" class="f1-sans f1-title">RITHUL RAVEENDRAN</text>
+    <text x="0" y="26" class="f1-sans f1-sub">AI &amp; MACHINE LEARNING ENGINEER // SYSTEMS ARCHITECT</text>
+    <text x="0" y="48" class="f1-sans f1-desc">High-Throughput Intelligence · Stateful Reasoning Graphs · High-RPM Telemetry</text>
+  </g>
+
+  <!-- Telemetry Sector Chips (S1, S2, S3) -->
+  <g transform="translate(56, 172)">
+    <!-- Sector 1 -->
     <g>
-      <rect x="0" y="0" width="198" height="26" rx="4" fill="#0d1117" stroke="#30363d" stroke-width="1" />
-      <text x="12" y="17" class="mono spec-pill">[01] AGENTIC DECISION GRAPHS</text>
+      <rect x="0" y="0" width="186" height="26" rx="2" fill="#12151e" stroke="#2a2f3d" stroke-width="1" />
+      <rect x="0" y="0" width="4" height="26" fill="#e10600" />
+      <text x="12" y="17" class="f1-mono f1-chip"><tspan fill="#e10600">S1</tspan> // MULTIMODAL SPEECH</text>
     </g>
-    <!-- Pill 2 -->
-    <g transform="translate(208, 0)">
-      <rect x="0" y="0" width="198" height="26" rx="4" fill="#0d1117" stroke="#30363d" stroke-width="1" />
-      <text x="12" y="17" class="mono spec-pill">[02] MULTIMODAL SPEECH &amp; RAG</text>
+    <!-- Sector 2 -->
+    <g transform="translate(196, 0)">
+      <rect x="0" y="0" width="186" height="26" rx="2" fill="#12151e" stroke="#2a2f3d" stroke-width="1" />
+      <rect x="0" y="0" width="4" height="26" fill="#ffffff" />
+      <text x="12" y="17" class="f1-mono f1-chip"><tspan fill="#ffffff">S2</tspan> // AGENTIC GRAPHS</text>
     </g>
-    <!-- Pill 3 -->
-    <g transform="translate(416, 0)">
-      <rect x="0" y="0" width="180" height="26" rx="4" fill="#0d1117" stroke="#30363d" stroke-width="1" />
-      <text x="12" y="17" class="mono spec-pill">[03] 700+ PROBLEMS SOLVED</text>
+    <!-- Sector 3 -->
+    <g transform="translate(392, 0)">
+      <rect x="0" y="0" width="186" height="26" rx="2" fill="#12151e" stroke="#2a2f3d" stroke-width="1" />
+      <rect x="0" y="0" width="4" height="26" fill="#00d2be" />
+      <text x="12" y="17" class="f1-mono f1-chip"><tspan fill="#00d2be">S3</tspan> // HIGH-RPM BACKENDS</text>
     </g>
   </g>
 
-  <!-- ==================== RIGHT: AGENTIC REASONING & VECTOR RETRIEVAL SCHEMATIC ==================== -->
-  <g transform="translate(690, 36)">
-    <!-- Schematic Frame -->
-    <rect x="0" y="0" width="446" height="172" rx="6" fill="#090c12" stroke="#21262d" stroke-width="1" />
+  <!-- ==================== RIGHT: FORMULA 1 SPEED & TELEMETRY CONSOLE ==================== -->
+  <g transform="translate(680, 32)">
+    <!-- Telemetry Main Frame -->
+    <rect x="0" y="0" width="474" height="182" rx="4" fill="url(#panelGrad)" stroke="#232733" stroke-width="1" />
+
+    <!-- Pit Wall Header Bar -->
+    <rect x="0" y="0" width="474" height="26" fill="#181c26" />
+    <line x1="0" y1="26" x2="474" y2="26" stroke="#232733" stroke-width="1" />
     
-    <!-- Schematic Header Bar -->
-    <rect x="0" y="0" width="446" height="24" rx="6" fill="#0d1117" />
-    <line x1="0" y1="24" x2="446" y2="24" stroke="#21262d" stroke-width="1" />
-    <circle cx="14" cy="12" r="3" fill="#ff5f56" />
-    <circle cx="24" cy="12" r="3" fill="#ffbd2e" />
-    <circle cx="34" cy="12" r="3" fill="#27c93f" />
-    <text x="52" y="15.5" class="mono schem-label" fill="#8b949e">REASONING_PIPELINE // LANGGRAPH_PGVECTOR.SYS</text>
-
-    <!-- Stage 1: Multimodal Ingest -->
-    <g transform="translate(18, 40)">
-      <rect x="0" y="0" width="102" height="88" rx="4" fill="#0d1117" stroke="#30363d" stroke-width="1" stroke-dasharray="3,3" />
-      <text x="51" y="24" text-anchor="middle" class="mono schem-label" fill="#8b949e">INGEST</text>
-      <text x="51" y="44" text-anchor="middle" class="mono" font-size="8" fill="#58a6ff">Speech / Audio</text>
-      <text x="51" y="58" text-anchor="middle" class="mono" font-size="7.5" fill="#6e7681">librosa feature</text>
-      <text x="51" y="74" text-anchor="middle" class="mono" font-size="7.5" fill="#c9d1d9">dim: [B, 1536]</text>
+    <!-- F1 Steering Wheel Shift Lights (15 LEDs) -->
+    <g transform="translate(16, 13)">
+      <!-- 5 Green LEDs -->
+      <circle cx="0" cy="0" r="3" fill="#00e676" />
+      <circle cx="9" cy="0" r="3" fill="#00e676" />
+      <circle cx="18" cy="0" r="3" fill="#00e676" />
+      <circle cx="27" cy="0" r="3" fill="#00e676" />
+      <circle cx="36" cy="0" r="3" fill="#00e676" />
+      <!-- 5 Red LEDs -->
+      <circle cx="48" cy="0" r="3" fill="#e10600" />
+      <circle cx="57" cy="0" r="3" fill="#e10600" />
+      <circle cx="66" cy="0" r="3" fill="#e10600" />
+      <circle cx="75" cy="0" r="3" fill="#e10600" />
+      <circle cx="84" cy="0" r="3" fill="#e10600" />
+      <!-- 5 Blue LEDs -->
+      <circle cx="96" cy="0" r="3" fill="#00b0ff" />
+      <circle cx="105" cy="0" r="3" fill="#00b0ff" />
+      <circle cx="114" cy="0" r="3" fill="#00b0ff" />
+      <circle cx="123" cy="0" r="3" fill="#00b0ff" />
+      <circle cx="132" cy="0" r="3" fill="#00b0ff" />
     </g>
 
-    <!-- Arrow 1 -->
-    <g transform="translate(120, 80)">
-      <line x1="0" y1="4" x2="24" y2="4" stroke="#58a6ff" stroke-width="1.2" />
-      <polygon points="24,4 18,1 18,7" fill="#58a6ff" />
-      <text x="12" y="-2" text-anchor="middle" class="mono" font-size="7" fill="#6e7681">EMBED</text>
-    </g>
+    <text x="458" y="17" text-anchor="end" class="f1-mono" font-size="9" font-weight="800" fill="#e10600">LIVE RACE TELEMETRY // DRS ENABLED</text>
 
-    <!-- Stage 2: LangGraph Decision Core -->
-    <g transform="translate(148, 30)">
-      <rect x="0" y="0" width="154" height="106" rx="5" fill="url(#coreGrad)" stroke="#58a6ff" stroke-width="1.2" />
-      
-      <!-- Header inside core -->
-      <line x1="12" y1="26" x2="142" y2="26" stroke="#21262d" stroke-width="1" />
-      <text x="77" y="18" text-anchor="middle" class="mono" font-size="10" font-weight="700" fill="#f0f6fc">LANGGRAPH CORE</text>
-      
-      <text x="14" y="42" class="mono" font-size="8" fill="#c9d1d9">State Graph Orchestrator</text>
-      <text x="14" y="56" class="mono" font-size="8" fill="#8b949e">Conditional Edge Routing</text>
-      <text x="14" y="70" class="mono" font-size="8" fill="#8b949e">Agentic Tool Dispatch</text>
-      <text x="14" y="88" class="mono" font-size="8" fill="#58a6ff">Decision Latency: &lt; 45ms</text>
-    </g>
+    <!-- Telemetry Display Grid -->
+    <g transform="translate(18, 38)">
+      <!-- Speed & Gear Data Column -->
+      <g>
+        <text x="0" y="10" class="f1-mono telem-label">SPEED</text>
+        <text x="0" y="32" class="f1-sans" font-size="28" font-weight="900" font-style="italic" fill="#ffffff">328</text>
+        <text x="56" y="32" class="f1-mono" font-size="10" fill="#8a8f9d">KM/H</text>
 
-    <!-- Arrow 2 -->
-    <g transform="translate(302, 80)">
-      <line x1="0" y1="4" x2="24" y2="4" stroke="#58a6ff" stroke-width="1.2" />
-      <polygon points="24,4 18,1 18,7" fill="#58a6ff" />
-      <text x="12" y="-2" text-anchor="middle" class="mono" font-size="7" fill="#6e7681">QUERY</text>
-    </g>
+        <text x="0" y="52" class="f1-mono telem-label">GEAR</text>
+        <text x="0" y="74" class="f1-sans" font-size="24" font-weight="900" fill="#e10600">8</text>
 
-    <!-- Stage 3: Vector Storage & Retrieval -->
-    <g transform="translate(330, 40)">
-      <rect x="0" y="0" width="98" height="88" rx="4" fill="#0d1117" stroke="#30363d" stroke-width="1" />
-      <text x="49" y="24" text-anchor="middle" class="mono schem-label" fill="#8b949e">PGVECTOR</text>
-      <text x="49" y="44" text-anchor="middle" class="mono" font-size="8" fill="#58a6ff">HNSW Index</text>
-      <text x="49" y="58" text-anchor="middle" class="mono" font-size="7.5" fill="#6e7681">Cosine Sim</text>
-      <text x="49" y="74" text-anchor="middle" class="mono" font-size="7.5" fill="#c9d1d9">PostgreSQL DB</text>
-    </g>
+        <text x="0" y="94" class="f1-mono telem-label">THROTTLE</text>
+        <rect x="0" y="99" width="60" height="5" rx="1" fill="#1c212d" />
+        <rect x="0" y="99" width="58" height="5" rx="1" fill="#00e676" />
+      </g>
 
-    <!-- Schematic Subtext -->
-    <g transform="translate(18, 152)">
-      <text x="0" y="7" class="mono" font-size="8" fill="#8b949e">AUTONOMOUS REASONING &amp; HIGH-DIMENSIONAL RETRIEVAL PIPELINE</text>
+      <!-- Telemetry Speed Curve & G-Force Graph -->
+      <g transform="translate(100, 4)">
+        <!-- Background Graph Grid -->
+        <rect x="0" y="0" width="338" height="84" fill="#0b0d13" stroke="#1d222e" stroke-width="0.8" />
+        <line x1="0" y1="28" x2="338" y2="28" stroke="#181d27" stroke-width="0.8" stroke-dasharray="2,2" />
+        <line x1="0" y1="56" x2="338" y2="56" stroke="#181d27" stroke-width="0.8" stroke-dasharray="2,2" />
+        <line x1="84" y1="0" x2="84" y2="84" stroke="#181d27" stroke-width="0.8" stroke-dasharray="2,2" />
+        <line x1="168" y1="0" x2="168" y2="84" stroke="#181d27" stroke-width="0.8" stroke-dasharray="2,2" />
+        <line x1="252" y1="0" x2="252" y2="84" stroke="#181d27" stroke-width="0.8" stroke-dasharray="2,2" />
+
+        <!-- Actual Speed Telemetry Trace Path -->
+        <path d="M 0 68 Q 30 72 50 48 T 90 22 T 130 58 T 170 12 T 210 38 T 260 16 T 310 10 L 338 8" 
+              fill="none" stroke="url(#traceGrad)" stroke-width="2.2" stroke-linecap="round" />
+
+        <!-- Delta marker -->
+        <circle cx="260" cy="16" r="3.5" fill="#e10600" />
+        <rect x="236" y="24" width="68" height="16" rx="2" fill="#161a24" stroke="#e10600" stroke-width="0.8" />
+        <text x="270" y="35" text-anchor="middle" class="f1-mono" font-size="8" font-weight="800" fill="#ffffff">Δ -0.184s</text>
+
+        <!-- Axis labels -->
+        <text x="6" y="12" class="f1-mono" font-size="7" fill="#8a8f9d">340 KM/H</text>
+        <text x="6" y="80" class="f1-mono" font-size="7" fill="#8a8f9d">APEX 14</text>
+        <text x="330" y="80" text-anchor="end" class="f1-mono" font-size="7" fill="#00d2be">DRS ZONE 2</text>
+      </g>
+
+      <!-- Bottom Paddock Status Bar -->
+      <g transform="translate(0, 118)">
+        <rect x="0" y="0" width="438" height="18" fill="#10131a" />
+        <text x="8" y="12.5" class="f1-mono" font-size="8.5" font-weight="700" fill="#8a8f9d">
+          TYRE: <tspan fill="#e10600">SOFT (C5)</tspan> · ERS: <tspan fill="#00e676">100%</tspan> · BRAKE: <tspan fill="#ffffff">CARBON</tspan> · LATENCY: <tspan fill="#00d2be">&lt; 1.4ms</tspan>
+        </text>
+      </g>
     </g>
   </g>
 
-  <!-- ==================== BOTTOM: TECHNICAL METADATA DIVIDER ==================== -->
-  <line x1="64" y1="236" x2="1136" y2="236" stroke="#21262d" stroke-width="1" />
+  <!-- ==================== BOTTOM: FORMULA 1 PADDOCK STRIP ==================== -->
+  <line x1="56" y1="238" x2="1144" y2="238" stroke="#232733" stroke-width="1" />
 
-  <g transform="translate(64, 258)">
-    <text x="0" y="0" class="mono footer-meta">ACADEMICS: ST. JOSEPH'S COLL. OF ENGG (AI &amp; ML) · ALUMNUS: SAINIK SCHOOL KAZHAKOOTAM</text>
-    <text x="1072" y="0" text-anchor="end" class="mono footer-meta" fill="#58a6ff">PORTFOLIO: rithulraveendran.github.io</text>
+  <g transform="translate(56, 260)">
+    <text x="0" y="0" class="f1-mono f1-chip" fill="#8a8f9d">ACADEMICS: ST. JOSEPH'S COLL. OF ENGG (AI &amp; ML) · SAINIK SCHOOL KAZHAKOOTAM</text>
+    <text x="1088" y="0" text-anchor="end" class="f1-mono f1-chip" fill="#e10600">PORTFOLIO: rithulraveendran.github.io</text>
   </g>
 </svg>
