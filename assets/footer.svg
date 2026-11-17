@@ -2,63 +2,55 @@
   <defs>
     <!-- Background Gradient -->
     <linearGradient id="footerBg" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#090d16" />
-      <stop offset="100%" stop-color="#05070c" />
+      <stop offset="0%" stop-color="#07080a" />
+      <stop offset="50%" stop-color="#0a0c10" />
+      <stop offset="100%" stop-color="#0d1117" />
     </linearGradient>
 
-    <!-- Inverted Arch Gradient -->
-    <radialGradient id="footerArch" cx="50%" cy="110" r="60%">
-      <stop offset="0%" stop-color="#0284c7" stop-opacity="0.75" />
-      <stop offset="45%" stop-color="#0369a1" stop-opacity="0.35" />
-      <stop offset="85%" stop-color="#082f49" stop-opacity="0.1" />
-      <stop offset="100%" stop-color="#05070c" stop-opacity="0" />
-    </radialGradient>
+    <!-- Grid Pattern -->
+    <pattern id="footerGrid" width="32" height="32" patternUnits="userSpaceOnUse">
+      <path d="M 32 0 L 0 0 0 32" fill="none" stroke="#ffffff" stroke-width="0.5" stroke-opacity="0.02" />
+      <circle cx="0" cy="0" r="0.75" fill="#ffffff" fill-opacity="0.06" />
+    </pattern>
 
     <style>
-      .footer-title {
-        font-family: -apple-system, BlinkMacSystemFont, "SF Pro Display", "Segoe UI", Roboto, sans-serif;
-        font-size: 16px;
-        font-weight: 800;
-        letter-spacing: 4px;
-        fill: #ffffff;
-      }
-      .footer-sub {
-        font-family: -apple-system, BlinkMacSystemFont, "SF Pro Text", "Segoe UI", Roboto, sans-serif;
-        font-size: 11px;
-        font-weight: 500;
-        letter-spacing: 2.2px;
-        fill: #7dd3fc;
-      }
-      .wireframe {
-        fill: none;
-        stroke: #38bdf8;
-        stroke-width: 1.5;
-        stroke-opacity: 0.55;
-      }
+      .mono { font-family: ui-monospace, "SF Mono", "Geist Mono", Menlo, Consolas, monospace; }
+      .sans { font-family: -apple-system, BlinkMacSystemFont, "SF Pro Display", "Inter", "Segoe UI", Roboto, sans-serif; }
+      .foot-title { font-size: 13px; font-weight: 700; letter-spacing: 2px; fill: #f0f6fc; }
+      .foot-sub { font-size: 9.5px; font-weight: 500; letter-spacing: 1px; fill: #8b949e; }
+      .foot-center { font-size: 9px; font-weight: 500; letter-spacing: 2px; fill: #6e7681; }
+      .foot-right-title { font-size: 10px; font-weight: 600; letter-spacing: 1.5px; fill: #8b949e; }
+      .foot-right-link { font-size: 10.5px; font-weight: 600; letter-spacing: 0.8px; fill: #58a6ff; }
     </style>
   </defs>
 
-  <!-- Background Base -->
+  <!-- Base Surfaces -->
   <rect width="1200" height="110" fill="url(#footerBg)" />
+  <rect width="1200" height="110" fill="url(#footerGrid)" />
 
-  <!-- Inverted Glowing Dome Arch at Bottom -->
-  <ellipse cx="600" cy="110" rx="360" ry="90" fill="url(#footerArch)" />
+  <!-- Outer Border Hairline -->
+  <rect x="0.5" y="0.5" width="1199" height="109" fill="none" stroke="#21262d" stroke-width="1" />
 
-  <!-- Left Wireframe Accents -->
-  <g transform="translate(140, 42)">
-    <polygon points="0,20 18,0 48,0 30,20" class="wireframe" />
-    <polygon points="36,20 54,0 84,0 66,20" class="wireframe" />
-    <polygon points="72,20 90,0 120,0 102,20" class="wireframe" />
+  <!-- Top Accent Line -->
+  <line x1="64" y1="0" x2="1136" y2="0" stroke="#30363d" stroke-width="1" />
+  <rect x="580" y="0" width="40" height="1.5" fill="#58a6ff" />
+
+  <!-- Left: Identity & Core Philosophy -->
+  <g transform="translate(64, 46)">
+    <text x="0" y="0" class="sans foot-title">RITHUL RAVEENDRAN</text>
+    <text x="0" y="20" class="mono foot-sub">ENGINEERED FOR RESILIENCE, COMPUTATIONAL EFFICIENCY &amp; CLARITY</text>
   </g>
 
-  <!-- Center Typography -->
-  <text x="600" y="52" text-anchor="middle" class="footer-title">THANKS FOR VISITING</text>
-  <text x="600" y="74" text-anchor="middle" class="footer-sub">ENGINEERED WITH CARE · RITHUL RAVEENDRAN</text>
+  <!-- Center: Minimal Coordinate Mark -->
+  <g transform="translate(600, 48)">
+    <circle cx="0" cy="0" r="14" fill="#0d1117" stroke="#30363d" stroke-width="1" />
+    <path d="M -5 0 L 5 0 M 0 -5 L 0 5" stroke="#58a6ff" stroke-width="1.2" />
+    <text x="0" y="28" text-anchor="middle" class="mono foot-center">SYSTEMS · ARCHITECTURE · REASONING</text>
+  </g>
 
-  <!-- Right Wireframe Accents -->
-  <g transform="translate(940, 42)">
-    <polygon points="0,20 18,0 48,0 30,20" class="wireframe" />
-    <polygon points="36,20 54,0 84,0 66,20" class="wireframe" />
-    <polygon points="72,20 90,0 120,0 102,20" class="wireframe" />
+  <!-- Right: Metadata & Portfolio Link -->
+  <g transform="translate(1136, 46)">
+    <text x="0" y="0" text-anchor="end" class="mono foot-right-title">AI &amp; EMBEDDED SYSTEMS // 2026</text>
+    <text x="0" y="20" text-anchor="end" class="mono foot-right-link">rithulraveendran.github.io</text>
   </g>
 </svg>

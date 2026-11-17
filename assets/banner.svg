@@ -1,107 +1,171 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 280" width="100%" height="280">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 300" width="100%" height="300">
   <defs>
     <!-- Background Gradient -->
     <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#05070c" />
-      <stop offset="100%" stop-color="#090d16" />
+      <stop offset="0%" stop-color="#07080a" />
+      <stop offset="50%" stop-color="#0a0c10" />
+      <stop offset="100%" stop-color="#0d1117" />
     </linearGradient>
 
-    <!-- Center Dome Arch Gradient -->
-    <radialGradient id="archGrad" cx="50%" cy="0%" r="65%">
-      <stop offset="0%" stop-color="#0284c7" stop-opacity="0.85" />
-      <stop offset="45%" stop-color="#0369a1" stop-opacity="0.45" />
-      <stop offset="75%" stop-color="#082f49" stop-opacity="0.15" />
-      <stop offset="100%" stop-color="#05070c" stop-opacity="0" />
-    </radialGradient>
+    <!-- Grid Pattern -->
+    <pattern id="archGrid" width="32" height="32" patternUnits="userSpaceOnUse">
+      <path d="M 32 0 L 0 0 0 32" fill="none" stroke="#ffffff" stroke-width="0.5" stroke-opacity="0.025" />
+      <circle cx="0" cy="0" r="0.75" fill="#ffffff" fill-opacity="0.08" />
+    </pattern>
 
-    <!-- Subtle Radial Accent -->
-    <radialGradient id="glow" cx="50%" cy="40%" r="40%">
-      <stop offset="0%" stop-color="#38bdf8" stop-opacity="0.25" />
-      <stop offset="100%" stop-color="#05070c" stop-opacity="0" />
+    <!-- Chip Core Gradient -->
+    <linearGradient id="chipGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#111620" />
+      <stop offset="100%" stop-color="#0b0f16" />
+    </linearGradient>
+
+    <!-- Subtle Accent Glow -->
+    <radialGradient id="subtleGlow" cx="25%" cy="30%" r="50%">
+      <stop offset="0%" stop-color="#38bdf8" stop-opacity="0.04" />
+      <stop offset="100%" stop-color="#07080a" stop-opacity="0" />
     </radialGradient>
 
     <style>
-      .hero-title {
-        font-family: -apple-system, BlinkMacSystemFont, "SF Pro Display", "Segoe UI", Roboto, sans-serif;
-        font-size: 46px;
-        font-weight: 900;
-        letter-spacing: 5px;
-        fill: #ffffff;
-      }
-      .hero-sub {
-        font-family: -apple-system, BlinkMacSystemFont, "SF Pro Text", "Segoe UI", Roboto, sans-serif;
-        font-size: 13px;
-        font-weight: 600;
-        letter-spacing: 3.5px;
-        fill: #e0f2fe;
-      }
-      .meta-link {
-        font-family: -apple-system, BlinkMacSystemFont, "SF Pro Text", "Segoe UI", Roboto, sans-serif;
-        font-size: 14px;
-        font-weight: 500;
-        fill: #f8fafc;
-      }
-      .wireframe {
-        fill: none;
-        stroke: #38bdf8;
-        stroke-width: 1.5;
-        stroke-opacity: 0.6;
-      }
+      .mono { font-family: ui-monospace, "SF Mono", "Geist Mono", Menlo, Consolas, monospace; }
+      .sans { font-family: -apple-system, BlinkMacSystemFont, "SF Pro Display", "Inter", "Segoe UI", Roboto, sans-serif; }
+      .pill-text { font-size: 10px; font-weight: 600; letter-spacing: 1.2px; fill: #8b949e; }
+      .hero-name { font-size: 40px; font-weight: 800; letter-spacing: 3.5px; fill: #f0f6fc; }
+      .hero-sub { font-size: 14px; font-weight: 600; letter-spacing: 2.8px; fill: #58a6ff; }
+      .hero-desc { font-size: 13px; font-weight: 400; letter-spacing: 0.5px; fill: #8b949e; }
+      .spec-pill { font-size: 10.5px; font-weight: 500; letter-spacing: 0.8px; fill: #c9d1d9; }
+      .schem-label { font-size: 8.5px; font-weight: 600; letter-spacing: 0.5px; }
+      .footer-meta { font-size: 9.5px; font-weight: 500; letter-spacing: 1px; fill: #6e7681; }
     </style>
   </defs>
 
-  <!-- Background Base -->
-  <rect width="1200" height="280" fill="url(#bgGrad)" />
+  <!-- Base Surfaces -->
+  <rect width="1200" height="300" fill="url(#bgGrad)" />
+  <rect width="1200" height="300" fill="url(#archGrid)" />
+  <rect width="1200" height="300" fill="url(#subtleGlow)" />
 
-  <!-- Center Glowing Dome Arch (Kiran-style arch) -->
-  <ellipse cx="600" cy="0" rx="380" ry="240" fill="url(#archGrad)" />
-  <circle cx="600" cy="110" r="160" fill="url(#glow)" />
+  <!-- Outer Border Hairline -->
+  <rect x="0.5" y="0.5" width="1199" height="299" fill="none" stroke="#21262d" stroke-width="1" />
 
-  <!-- Center Avatar Circle with GitHub Octocat Icon -->
-  <g transform="translate(600, 75)">
-    <circle cx="0" cy="0" r="42" fill="#0b1120" stroke="#38bdf8" stroke-width="2" />
-    <!-- Octocat Silhouette -->
-    <path d="M0 -24 C-13 -24 -24 -13 -24 0 C-24 11 -17 20 -7 23 C-6 23 -5.5 22.5 -5.5 22 L-5.5 17.5 C-12 19 -13.5 14.5 -13.5 14.5 C-14.5 12 -16 11.5 -16 11.5 C-18 10 -16 10 -16 10 C-14 10 -12.5 12 -12.5 12 C-10.5 15.5 -7 14.5 -5.5 14 C-5.3 12.5 -4.7 11.5 -4 11 C-9 10.5 -14.5 8.5 -14.5 0 C-14.5 -2.5 -13.5 -4.5 -12 -6.2 C-12.2 -6.8 -13 -9 -11.8 -12 C-11.8 -12 -10 -12.5 -5.8 -9.5 C-4 -10 -2 -10.3 0 -10.3 C2 -10.3 4 -10 5.8 -9.5 C10 -12.5 11.8 -12 11.8 -12 C13 -9 12.2 -6.8 12 -6.2 C13.5 -4.5 14.5 -2.5 14.5 0 C14.5 8.5 9 10.5 4 11 C4.8 11.7 5.5 13 5.5 15 L5.5 22 C5.5 22.5 6 23 7 23 C17 20 24 11 24 0 C24 -13 13 -24 0 -24 Z" fill="#ffffff" />
-    <!-- Pixel Sunglasses -->
-    <rect x="-14" y="-7" width="13" height="6" fill="#000000" />
-    <rect x="1" y="-7" width="13" height="6" fill="#000000" />
-    <rect x="-1" y="-6" width="2" height="2" fill="#000000" />
-    <rect x="-12" y="-6" width="3" height="2" fill="#38bdf8" />
-    <rect x="3" y="-6" width="3" height="2" fill="#38bdf8" />
+  <!-- Corner Crosshair Ticks -->
+  <g stroke="#30363d" stroke-width="1">
+    <path d="M 24 16 L 24 32 M 16 24 L 32 24" />
+    <path d="M 1176 16 L 1176 32 M 1168 24 L 1184 24" />
+    <path d="M 24 268 L 24 284 M 16 276 L 32 276" />
+    <path d="M 1176 268 L 1176 284 M 1168 276 L 1184 276" />
   </g>
 
-  <!-- Big Bold Typography: HELLO WORLD -->
-  <text x="600" y="172" text-anchor="middle" class="hero-title">HELLO WORLD</text>
-  <text x="600" y="202" text-anchor="middle" class="hero-sub">WELCOME TO MY PROFILE</text>
+  <!-- ==================== LEFT: TYPOGRAPHY & IDENTITY ==================== -->
 
-  <!-- Left Side: Portfolio link + Geometric Accents -->
-  <g transform="translate(90, 168)">
-    <!-- Globe Icon -->
-    <circle cx="12" cy="0" r="11" fill="none" stroke="#38bdf8" stroke-width="1.5" />
-    <ellipse cx="12" cy="0" rx="4.5" ry="11" fill="none" stroke="#38bdf8" stroke-width="1.2" />
-    <line x1="1" y1="0" x2="23" y2="0" stroke="#38bdf8" stroke-width="1.2" />
-    <text x="32" y="5" class="meta-link">https://rithulraveendran.github.io</text>
+  <!-- Top Status Badge -->
+  <g transform="translate(64, 40)">
+    <rect x="0" y="0" width="286" height="24" rx="12" fill="#0d1117" stroke="#30363d" stroke-width="1" />
+    <circle cx="14" cy="12" r="3.5" fill="#3fb950" />
+    <text x="26" y="15.5" class="mono pill-text">NODE // ACTIVE · CHENNAI, INDIA</text>
+  </g>
 
-    <!-- 3 Geometric Parallelograms -->
-    <g transform="translate(15, 32)">
-      <polygon points="0,20 18,0 48,0 30,20" class="wireframe" />
-      <polygon points="36,20 54,0 84,0 66,20" class="wireframe" />
-      <polygon points="72,20 90,0 120,0 102,20" class="wireframe" />
+  <!-- Name & Titles -->
+  <g transform="translate(64, 102)">
+    <text x="0" y="0" class="sans hero-name">RITHUL RAVEENDRAN</text>
+    <text x="0" y="26" class="sans hero-sub">AI &amp; MACHINE LEARNING ENGINEER · SYSTEMS BUILDER</text>
+    <text x="0" y="48" class="sans hero-desc">Edge Computer Vision · Multimodal Reasoning Graphs · Resilient Architectures</text>
+  </g>
+
+  <!-- Three Architecture Tags (Apple-Restraint Pills) -->
+  <g transform="translate(64, 182)">
+    <!-- Pill 1 -->
+    <g>
+      <rect x="0" y="0" width="186" height="26" rx="4" fill="#0d1117" stroke="#30363d" stroke-width="1" />
+      <text x="12" y="17" class="mono spec-pill">[01] EMBEDDED NPU / RV1106</text>
+    </g>
+    <!-- Pill 2 -->
+    <g transform="translate(196, 0)">
+      <rect x="0" y="0" width="194" height="26" rx="4" fill="#0d1117" stroke="#30363d" stroke-width="1" />
+      <text x="12" y="17" class="mono spec-pill">[02] LANGGRAPH &amp; PGVECTOR</text>
+    </g>
+    <!-- Pill 3 -->
+    <g transform="translate(400, 0)">
+      <rect x="0" y="0" width="180" height="26" rx="4" fill="#0d1117" stroke="#30363d" stroke-width="1" />
+      <text x="12" y="17" class="mono spec-pill">[03] 700+ PROBLEMS SOLVED</text>
     </g>
   </g>
 
-  <!-- Right Side: Email + Geometric Accents -->
-  <g transform="translate(860, 168)">
-    <!-- Mail Icon -->
-    <rect x="0" y="-9" width="22" height="17" rx="3" fill="none" stroke="#38bdf8" stroke-width="1.5" />
-    <polyline points="0,-7 11,2 22,-7" fill="none" stroke="#38bdf8" stroke-width="1.5" />
-    <text x="32" y="5" class="meta-link">flightsofwhisper@gmail.com</text>
+  <!-- ==================== RIGHT: HARDWARE & EDGE CV PIPELINE SCHEMATIC ==================== -->
+  <g transform="translate(710, 42)">
+    <!-- Schematic Frame -->
+    <rect x="0" y="0" width="426" height="174" rx="6" fill="#090c12" stroke="#21262d" stroke-width="1" />
+    
+    <!-- Schematic Header Bar -->
+    <rect x="0" y="0" width="426" height="24" rx="6" fill="#0d1117" />
+    <line x1="0" y1="24" x2="426" y2="24" stroke="#21262d" stroke-width="1" />
+    <circle cx="12" cy="12" r="3" fill="#ff5f56" />
+    <circle cx="22" cy="12" r="3" fill="#ffbd2e" />
+    <circle cx="32" cy="12" r="3" fill="#27c93f" />
+    <text x="50" y="15.5" class="mono schem-label" fill="#8b949e">EDGE_INFERENCE_PIPELINE // RV1106_NPU.SYS</text>
 
-    <!-- 3 Geometric Parallelograms -->
-    <g transform="translate(65, 32)">
-      <polygon points="0,20 18,0 48,0 30,20" class="wireframe" />
-      <polygon points="36,20 54,0 84,0 66,20" class="wireframe" />
-      <polygon points="72,20 90,0 120,0 102,20" class="wireframe" />
+    <!-- Stage 1: Input Sensor Frame -->
+    <g transform="translate(18, 42)">
+      <rect x="0" y="0" width="76" height="84" rx="4" fill="#0d1117" stroke="#30363d" stroke-width="1" stroke-dasharray="3,3" />
+      <text x="38" y="34" text-anchor="middle" class="mono schem-label" fill="#8b949e">SENSOR</text>
+      <text x="38" y="48" text-anchor="middle" class="mono schem-label" fill="#58a6ff">RGB IN</text>
+      <text x="38" y="66" text-anchor="middle" class="mono" font-size="7.5" fill="#6e7681">640×640×3</text>
     </g>
+
+    <!-- Bus Arrow 1 -->
+    <g transform="translate(98, 80)">
+      <line x1="0" y1="4" x2="22" y2="4" stroke="#58a6ff" stroke-width="1.2" />
+      <polygon points="22,4 16,1 16,7" fill="#58a6ff" />
+      <text x="11" y="-2" text-anchor="middle" class="mono" font-size="7" fill="#6e7681">DMA</text>
+    </g>
+
+    <!-- Stage 2: NPU Hardware Accelerator (Rockchip RV1106 Core) -->
+    <g transform="translate(126, 32)">
+      <rect x="0" y="0" width="144" height="104" rx="5" fill="url(#chipGrad)" stroke="#58a6ff" stroke-width="1.2" />
+      
+      <!-- Internal Core Grid -->
+      <line x1="12" y1="28" x2="132" y2="28" stroke="#21262d" stroke-width="1" />
+      <text x="72" y="20" text-anchor="middle" class="mono" font-size="10.5" font-weight="700" fill="#f0f6fc">RV1106 NPU CORE</text>
+      
+      <circle cx="22" cy="42" r="2.5" fill="#3fb950" />
+      <text x="30" y="45" class="mono" font-size="8.5" fill="#3fb950">0.5 TOPS · INT8 QAT</text>
+
+      <text x="18" y="62" class="mono" font-size="8" fill="#c9d1d9">MODEL: YOLOv8-Nano</text>
+      <text x="18" y="76" class="mono" font-size="8" fill="#8b949e">LATENCY: 14.2ms/fr</text>
+      <text x="18" y="90" class="mono" font-size="8" fill="#58a6ff">MEM: 128MB DDR2 POOL</text>
+    </g>
+
+    <!-- Bus Arrow 2 -->
+    <g transform="translate(274, 80)">
+      <line x1="0" y1="4" x2="22" y2="4" stroke="#58a6ff" stroke-width="1.2" />
+      <polygon points="22,4 16,1 16,7" fill="#58a6ff" />
+      <text x="11" y="-2" text-anchor="middle" class="mono" font-size="7" fill="#6e7681">NMS</text>
+    </g>
+
+    <!-- Stage 3: Bounding Box Head -->
+    <g transform="translate(302, 42)">
+      <rect x="0" y="0" width="106" height="84" rx="4" fill="#0d1117" stroke="#30363d" stroke-width="1" />
+      <text x="53" y="16" text-anchor="middle" class="mono schem-label" fill="#8b949e">DETECTION</text>
+      
+      <!-- Mini Bounding Box 1 -->
+      <rect x="14" y="26" width="36" height="42" fill="none" stroke="#3fb950" stroke-width="1" />
+      <text x="16" y="34" class="mono" font-size="6.5" fill="#3fb950">person 0.94</text>
+      
+      <!-- Mini Bounding Box 2 -->
+      <rect x="44" y="42" width="48" height="34" fill="none" stroke="#58a6ff" stroke-width="1" stroke-dasharray="2,2" />
+      <text x="46" y="50" class="mono" font-size="6.5" fill="#58a6ff">target 0.88</text>
+    </g>
+
+    <!-- Schematic Footer Status -->
+    <g transform="translate(18, 154)">
+      <circle cx="4" cy="4" r="2.5" fill="#3fb950" />
+      <text x="14" y="7" class="mono" font-size="8" fill="#8b949e">ZERO-COPY RING BUFFER // SYNCHRONOUS INFERENCE ACTIVE</text>
+    </g>
+  </g>
+
+  <!-- ==================== BOTTOM: TECHNICAL METADATA DIVIDER ==================== -->
+  <line x1="64" y1="248" x2="1136" y2="248" stroke="#21262d" stroke-width="1" />
+
+  <g transform="translate(64, 272)">
+    <text x="0" y="0" class="mono footer-meta">ACADEMICS: ST. JOSEPH'S COLL. OF ENGG (B.TECH AI&amp;ML) · ALUMNUS: SAINIK SCHOOL KAZHAKOOTAM</text>
+    <text x="1072" y="0" text-anchor="end" class="mono footer-meta" fill="#58a6ff">PORTFOLIO: rithulraveendran.github.io</text>
   </g>
 </svg>
