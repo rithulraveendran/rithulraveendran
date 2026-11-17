@@ -1,29 +1,28 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="820" height="205" viewBox="0 0 820 205">
+<svg xmlns="http://www.w3.org/2000/svg" width="820" height="200" viewBox="0 0 820 200">
   <defs>
     <style>
-      .title { font-family: -apple-system, BlinkMacSystemFont, "Titillium Web", "Segoe UI", sans-serif; font-size: 13px; font-weight: 800; letter-spacing: 1.5px; fill: #ffffff; }
-      .meta { font-family: ui-monospace, "SF Mono", "Geist Mono", "Roboto Mono", monospace; font-size: 10.5px; font-weight: 600; fill: #8a8f9d; }
-      .lang-name { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; font-size: 12px; font-weight: 700; fill: #ffffff; }
-      .lang-time { font-family: ui-monospace, "SF Mono", "Geist Mono", monospace; font-size: 10.5px; fill: #8a8f9d; }
-      .lang-pct { font-family: ui-monospace, "SF Mono", "Geist Mono", monospace; font-size: 11px; font-weight: 800; fill: #f0f2f5; }
+      .title { font-family: -apple-system, BlinkMacSystemFont, "Titillium Web", "Segoe UI", sans-serif; font-size: 13px; font-weight: 700; letter-spacing: 1px; fill: #ffffff; }
+      .meta { font-family: ui-monospace, "SF Mono", "Geist Mono", monospace; font-size: 11px; font-weight: 500; fill: #8a8f9d; }
+      .lang-name { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; font-size: 12px; font-weight: 600; fill: #ffffff; }
+      .lang-time { font-family: ui-monospace, "SF Mono", "Geist Mono", monospace; font-size: 11px; fill: #8a8f9d; }
+      .lang-pct { font-family: ui-monospace, "SF Mono", "Geist Mono", monospace; font-size: 11px; font-weight: 700; fill: #f0f2f5; }
     </style>
   </defs>
 
   <!-- Container -->
-  <rect width="818" height="203" x="1" y="1" rx="4" fill="#0d0e13" stroke="#232733" stroke-width="1" />
+  <rect width="818" height="198" x="1" y="1" rx="4" fill="#0d0e13" stroke="#1f232e" stroke-width="1" />
 
-  <!-- Top Accent Racing Line -->
-  <rect x="1" y="1" width="120" height="2.5" fill="#e10600" />
+  <!-- Top Racing Accent -->
+  <rect x="1" y="1" width="80" height="2.5" fill="#e10600" />
 
   <!-- Header -->
   <g transform="translate(30, 26)">
-    <rect x="0" y="-12" width="6" height="15" fill="#e10600" />
-    <text x="14" y="0" class="title">PIT WALL TELEMETRY // WAKATIME ENGINE RUNTIME</text>
-    <text x="760" y="0" text-anchor="end" class="meta"><tspan fill="#e10600">TOTAL:</tspan> 136 HRS 26 MINS · <tspan fill="#ffffff">DAILY STINT:</tspan> 1 HR 37 MINS</text>
+    <text class="title">Languages &amp; Coding Telemetry (WakaTime)</text>
+    <text x="760" y="0" text-anchor="end" class="meta">136 hrs 26 mins logged · Daily avg: 1 hr 37 mins</text>
   </g>
 
-  <!-- Continuous Multi-segment Timing Bar -->
-  <g transform="translate(30, 42)">
+  <!-- Continuous Multi-segment Language Bar -->
+  <g transform="translate(30, 38)">
     <clipPath id="bar-clip">
       <rect x="0" y="0" width="760" height="7" rx="2" />
     </clipPath>
@@ -42,7 +41,7 @@
 
   <!-- ==================== COLUMN 1 (LEFT) ==================== -->
   <!-- Python -->
-  <g transform="translate(30, 72)">
+  <g transform="translate(30, 68)">
     <circle cx="5" cy="5" r="4" fill="#3572A5" />
     <text x="18" y="9" class="lang-name">Python</text>
     <text x="105" y="9" class="lang-time">44 hrs 44 mins</text>
@@ -52,7 +51,7 @@
   </g>
 
   <!-- HTML -->
-  <g transform="translate(30, 102)">
+  <g transform="translate(30, 98)">
     <circle cx="5" cy="5" r="4" fill="#e34c26" />
     <text x="18" y="9" class="lang-name">HTML</text>
     <text x="105" y="9" class="lang-time">27 hrs 48 mins</text>
@@ -62,7 +61,7 @@
   </g>
 
   <!-- Markdown -->
-  <g transform="translate(30, 132)">
+  <g transform="translate(30, 128)">
     <circle cx="5" cy="5" r="4" fill="#58a6ff" />
     <text x="18" y="9" class="lang-name">Markdown</text>
     <text x="105" y="9" class="lang-time">19 hrs 20 mins</text>
@@ -72,7 +71,7 @@
   </g>
 
   <!-- JavaScript -->
-  <g transform="translate(30, 162)">
+  <g transform="translate(30, 158)">
     <circle cx="5" cy="5" r="4" fill="#f1e05a" />
     <text x="18" y="9" class="lang-name">JavaScript</text>
     <text x="105" y="9" class="lang-time">18 hrs 31 mins</text>
@@ -83,7 +82,7 @@
 
   <!-- ==================== COLUMN 2 (RIGHT) ==================== -->
   <!-- TypeScript -->
-  <g transform="translate(435, 72)">
+  <g transform="translate(435, 68)">
     <circle cx="5" cy="5" r="4" fill="#3178c6" />
     <text x="18" y="9" class="lang-name">TypeScript</text>
     <text x="105" y="9" class="lang-time">4 hrs 40 mins</text>
@@ -93,7 +92,7 @@
   </g>
 
   <!-- Bash -->
-  <g transform="translate(435, 102)">
+  <g transform="translate(435, 98)">
     <circle cx="5" cy="5" r="4" fill="#89e051" />
     <text x="18" y="9" class="lang-name">Bash</text>
     <text x="105" y="9" class="lang-time">2 hrs 58 mins</text>
@@ -103,7 +102,7 @@
   </g>
 
   <!-- SQL -->
-  <g transform="translate(435, 132)">
+  <g transform="translate(435, 128)">
     <circle cx="5" cy="5" r="4" fill="#e38c00" />
     <text x="18" y="9" class="lang-name">SQL</text>
     <text x="105" y="9" class="lang-time">1 hr 10 mins</text>
@@ -113,7 +112,7 @@
   </g>
 
   <!-- C -->
-  <g transform="translate(435, 162)">
+  <g transform="translate(435, 158)">
     <circle cx="5" cy="5" r="4" fill="#7d8590" />
     <text x="18" y="9" class="lang-name">C</text>
     <text x="105" y="9" class="lang-time">31 mins</text>
